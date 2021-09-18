@@ -20,6 +20,7 @@ header, footer {
   background-color: #177047;
   color: white;
   max-width: 800px;
+  min-height: 100px;
 }
 header img {
   float: right;
