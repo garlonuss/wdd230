@@ -26,10 +26,13 @@ header, footer {
 }
 header img {
   float: right;
-  border-radius:10px;
 }
 header {
   font-size: large;
+}
+
+.profimg {
+  border-radius: 15px 50px 30px 5px;
 }
 
 p.subheader {
