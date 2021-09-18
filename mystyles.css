@@ -6,6 +6,8 @@ body {
   padding-left: 5pt;
   padding-right: 5pt;
   padding-top: 5pt;
+  max-width: 800px;
+  margin: auto;
 }
 
 h1 {
