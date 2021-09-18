@@ -26,6 +26,7 @@ header, footer {
 }
 header img {
   float: right;
+  border-radius: 25px;
 }
 header {
   font-size: large;
