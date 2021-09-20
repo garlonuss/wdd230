@@ -24,15 +24,13 @@ header, footer {
   max-width: 800px;
   min-height: 100px;
 }
-header img {
-  float: right;
-}
-header p {
+header {
   font-size: 170px;
 }
 
 .profimg {
   border-radius: 30px 100px 60px 10px;
+  float: right;
 }
 
 p.subheader {
