@@ -23,6 +23,7 @@ header, footer {
   color: white;
   max-width: 800px;
   min-height: 100px;
+  padding: 2.5em;
 }
 header {
   font-size: 50px;
