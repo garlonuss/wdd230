@@ -23,10 +23,10 @@ header, footer {
   color: white;
   max-width: 800px;
   min-height: 100px;
-  padding: 2.5em;
+  padding: 1em;
 }
 header {
-  font-size: 50px;
+  font-size: 40px;
   vertical-align: middle;
 }
 
