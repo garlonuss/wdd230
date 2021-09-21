@@ -18,7 +18,7 @@ h1 {
 
 header, footer {
   text-align: center;
-  font-weight: bold;
+/*  font-weight: bold; */
   background-color: #177047;
   color: white;
   max-width: 800px;
