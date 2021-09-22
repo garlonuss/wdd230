@@ -23,6 +23,7 @@ header, footer {
   color: white;
   max-width: 800px;
   padding: .5em;
+  font-size: 30px;
 }
 header {
   vertical-align: middle;
@@ -30,7 +31,6 @@ header {
 
 .profimg {
   border-radius: 6px 20px 6px 2px;
-  align-self: center;
 }
 
 p.subheader {
