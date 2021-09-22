@@ -1,9 +1,14 @@
 @media only screen and (min-width: 32.5em) {
   header, footer {
     border-radius: 10px;
+    min-height: 100px;
   }
   .profimg {
     border-radius: 30px 100px 30px 10px;
     float: right;
+  }
+  header {
+    font-size: 60px;
+    font-family: 'Bonheur Royale', cursive;
   }
 }

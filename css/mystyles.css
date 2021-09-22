@@ -22,14 +22,10 @@ header, footer {
   background-color: #177047;
   color: white;
   max-width: 800px;
-  min-height: 100px;
   padding: .5em;
-  border-radius: 0px;
 }
 header {
-  font-size: 60px;
   vertical-align: middle;
-  font-family: 'Bonheur Royale', cursive;
 }
 
 .profimg {
