@@ -34,6 +34,7 @@ footer {
 
 .profimg {
   border-radius: 2px;
+  align-self: center;
 }
 
 p.subheader {
