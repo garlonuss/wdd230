@@ -35,6 +35,7 @@ footer {
 .profimg {
 /*  border-radius: 2px;*/
   float: none;
+  margin: auto;
 }
 
 p.subheader {
