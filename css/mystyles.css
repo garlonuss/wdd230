@@ -22,7 +22,7 @@ header, footer {
   background-color: #177047;
   color: white;
   max-width: 800px;
-/*  padding: .5em;*/
+  padding: .5em;
 }
 header {
   vertical-align: middle;
