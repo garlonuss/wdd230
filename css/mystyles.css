@@ -22,18 +22,18 @@ header, footer {
   background-color: #177047;
   color: white;
   max-width: 800px;
-  padding: .5em;
+/*  padding: .5em;*/
 }
 header {
   vertical-align: middle;
-  font-size: 20px;
+  font-size: 30px;
 }
 footer {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .profimg {
-/*  border-radius: 6px 20px 6px 2px;*/
+  border-radius: 2px;
 }
 
 p.subheader {
