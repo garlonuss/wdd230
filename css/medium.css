@@ -1,0 +1,9 @@
+@media only screen and (min-width: 32.5em) {
+  header, footer {
+    border-radius: 0px;
+  }
+  .profimg {
+    float: inline-end;
+    align-self: center;
+  }
+}

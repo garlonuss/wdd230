@@ -24,6 +24,7 @@ header, footer {
   max-width: 800px;
   min-height: 100px;
   padding: .5em;
+  border-radius: 10px;
 }
 header {
   font-size: 60px;
