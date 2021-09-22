@@ -6,7 +6,7 @@
   .profimg {
     border-radius: 30px 100px 30px 10px;
     float: right;
-    box-shadow: 10pt 10pt 30px #444;
+    box-shadow: 10pt 10pt 30px rgb(57, 70, 56);
   }
   header {
     font-size: 150px;
