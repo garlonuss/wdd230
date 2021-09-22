@@ -23,10 +23,13 @@ header, footer {
   color: white;
   max-width: 800px;
   padding: .5em;
-  font-size: 30px;
 }
 header {
   vertical-align: middle;
+  font-size: 30px;
+}
+footer {
+  font-size: 15px;
 }
 
 .profimg {

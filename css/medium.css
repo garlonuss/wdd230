@@ -9,7 +9,10 @@
     box-shadow: 0 0 30px #444;
   }
   header {
-    font-size: 60px;
+    font-size: 70px;
     font-family: 'Bonheur Royale', cursive;
+  }
+  footer {
+    font-size: 20px;
   }
 }
