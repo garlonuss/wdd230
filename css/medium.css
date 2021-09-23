@@ -9,6 +9,7 @@
     /*box-shadow: 10pt 10pt 30px rgb(57, 70, 56);*/
   }
   header {
+    text-align: justify;
     font-size: 150px;
     font-family: 'Bonheur Royale', cursive;
     margin: auto;
