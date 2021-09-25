@@ -9,13 +9,13 @@
   body {
     max-width: 1200px;
   }
-  header {
 /*/
+  header {
     text-align: justify;
     font-size: 80px;
     line-height: 85pt;
     font-family: 'Bonheur Royale', cursive;
     margin: auto;
-/*/
   }
+/*/
 }
