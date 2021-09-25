@@ -1,0 +1,28 @@
+@media only screen and (min-width: 32.5em) {
+  header, footer {
+    border-radius: 10px;
+    min-height: 100px;
+  }
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .profimg {
+    border-radius: 30px 100px 30px 10px;
+    float: right;
+    /*box-shadow: 10pt 10pt 30px rgb(57, 70, 56);*/
+  }
+  header {
+    text-align: justify;
+    font-size: 80px;
+    line-height: 85pt;
+    font-family: 'Bonheur Royale', cursive;
+    margin: auto;
+  }
+  /*
+  footer {
+  font-size: 20px;
+  line-height: 25pt;
+  }
+  */
+}
