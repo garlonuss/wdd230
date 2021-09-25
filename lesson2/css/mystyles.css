@@ -10,6 +10,10 @@ body {
   margin: auto;
 }
 
+.concept img {
+  max-width: 50%;
+  float: right;
+}
 h1 {
   font: 14pt 'Bebas Neue', cursive, Helvetica, sans-serif;
   font-weight: bold;
