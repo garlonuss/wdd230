@@ -1,5 +1,15 @@
 @media only screen and (min-width: 60em) {
+  header, footer {
+    border-radius: 10px;
+  }
   main {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  header {
+    text-align: justify;
+    font-size: 80px;
+    line-height: 85pt;
+    font-family: 'Bonheur Royale', cursive;
+    margin: auto;
   }
 }
