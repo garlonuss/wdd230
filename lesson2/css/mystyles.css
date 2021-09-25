@@ -10,7 +10,7 @@ body {
   margin: auto;
 }
 
-.concept img {
+img {
   max-width: 50%;
   float: right;
 }
