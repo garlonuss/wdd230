@@ -9,7 +9,9 @@ body {
   max-width: 800px;
   margin: auto;
 }
-
+.concept {
+  padding: 5px;
+}
 img {
   max-width: 50%;
   float: right;
