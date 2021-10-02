@@ -16,6 +16,9 @@ body {
     padding: 5px;
     grid-area: main;
   }
+  main img {
+    max-width: 90%;
+  }
   header {
     vertical-align: middle;
     font-size: 30px;
