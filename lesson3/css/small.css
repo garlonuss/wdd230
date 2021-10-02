@@ -28,7 +28,7 @@ body, .roboto {
   }
   header,
   footer {
-    background-color: #177047;
+    background-color: #2589bd;
     color:white;
     display: flex;
     flex-flow: column;
@@ -53,7 +53,7 @@ body, .roboto {
     line-height: 20pt;
   }
   nav {
-    background-color: #1f5831;
+    background-color: #187795;
     text-align: center;
     box-shadow: 0 1px 10px rgb(121, 190, 173);
 /*/
@@ -75,7 +75,7 @@ body, .roboto {
     font-size: 0.95rem;
   }
   nav a:hover {
-    background-color: rgb(20, 124, 20);
+    background-color: #5a7c50;
     color: #eaff73;
     --d: 75%;
   }
@@ -95,10 +95,10 @@ body, .roboto {
   }
   
   a:link, a:visited {
-    color: #489959;
+    color: #f46036;
   }
   
   a:hover, a:active {
-    color: #329c5b;
+    color: #d7b49e;
   }
   
