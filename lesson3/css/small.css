@@ -72,8 +72,8 @@ body {
     font-size: 0.95rem;
   }
   nav a:hover {
-  /* 	background-color: #bbb;
-    color: #36454f; */
+    background-color: rgb(20, 124, 20);
+    color: #eaff73;
     --d: 75%;
   }
   
