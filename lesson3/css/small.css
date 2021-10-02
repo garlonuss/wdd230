@@ -1,4 +1,4 @@
-body {
+body, .roboto {
   /*  font-size: 10pt;*/
     font-family: 'Roboto Mono', monospace;
     color: black;
@@ -47,7 +47,7 @@ body {
 	  margin: 0 auto;
     max-width: 800px;
   }
-  h1 {
+  h1, .bebas {
     font: 14pt 'Bebas Neue', cursive, Helvetica, sans-serif;
     font-weight: bold;
     line-height: 20pt;
