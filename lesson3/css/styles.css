@@ -53,6 +53,7 @@ body {
     background-color: #36454f;
     text-align: center;
     box-shadow: 0 2px 15px gray;
+    width: 100%;
   }
   nav ul {
     list-style-type: none;
