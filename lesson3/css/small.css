@@ -39,6 +39,17 @@ body, .roboto {
   /*  font-weight: bold; */
     padding: .5em;
   }
+  a {
+    text-decoration: none;
+  }
+  
+  a:link, a:visited {
+    color: #f46036;
+  }
+  
+  a:hover, a:active {
+    color: #d7b49e;
+  }
   header,
   nav,
   main,
@@ -85,17 +96,6 @@ body, .roboto {
     float: right;
   }
   
-  a {
-    text-decoration: none;
-  }
-  
-  a:link, a:visited {
-    color: #f46036;
-  }
-  
-  a:hover, a:active {
-    color: #d7b49e;
-  }
   nav a {
     color: #5a7c50
   }
