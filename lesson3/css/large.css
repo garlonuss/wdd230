@@ -3,6 +3,12 @@
 	nav a {
 		font-size: 1.1rem;
 	}
+  header,
+  nav,
+  main,
+  footer {
+    max-width: 1000px;
+  }
 /*/
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
