@@ -74,14 +74,6 @@ body, .roboto {
     text-decoration: none;
     font-size: 0.95rem;
   }
-  nav a {
-    color: #5a7c50
-  }
-  nav a:hover {
-    background-color: #5a7c50;
-    color: #eaff73;
-    --d: 75%;
-  }
   
   p.subheader {
     font-weight: bold;
@@ -104,4 +96,11 @@ body, .roboto {
   a:hover, a:active {
     color: #d7b49e;
   }
-  
+  nav a {
+    color: #5a7c50
+  }
+  nav a:hover {
+    background-color: #5a7c50;
+    color: #eaff73;
+    --d: 75%;
+  }
