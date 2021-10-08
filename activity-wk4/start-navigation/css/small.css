@@ -7,8 +7,12 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 nav {
   background-color: #ccc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+nav ul {
+  list-style-type: none;
+}
 
 
 
