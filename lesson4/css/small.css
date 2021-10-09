@@ -94,8 +94,8 @@ body {
   .stamp {
     display: block;
     margin: 0 auto;
-    border: 8px dotted #fff;
-    padding: 15px;
+    border: 5px dotted #fff;
+    padding: 10px;
     background-color: sandybrown;
     max-width: 90%;
   }
