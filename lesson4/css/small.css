@@ -72,9 +72,12 @@ body {
   }
   #title {
     font-size: 13pt;
+    color: rgba(206, 216, 255, 0.8);
+    font-weight: bold;
   }
   #slogan {
     font-size: 10pt;
+    color: rgba(165, 174, 214, 0.5);
   }
   .icon {
     grid-column-start: 1;
