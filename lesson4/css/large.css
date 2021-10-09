@@ -1,5 +1,5 @@
 /* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 70em) {
+@media only screen and (min-width: 1200px) {
 	h1 { font-size: 2rem;}
   #logo_75 {
     visibility: visible;
