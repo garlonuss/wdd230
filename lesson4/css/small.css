@@ -60,6 +60,20 @@ body {
   #slogan{
     font-size: 10pt;
   }
+  header {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-gap: 5px;
+    padding: 5px;
+  }
+  .headtext {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .icon {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
   header,
   nav,
   main,
