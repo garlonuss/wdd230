@@ -78,12 +78,12 @@ body {
   }
   #title {
     font-size: 13pt;
-    color: rgba(206, 216, 255, 0.8);
+    color: rgba(255, 255, 255, 0.85);
     font-weight: bold;
   }
   #slogan {
     font-size: 10pt;
-    color: rgba(165, 174, 214, 0.5);
+    color: rgba(255, 255, 255, 0.7);
   }
   .icon {
     grid-column-start: 1;
