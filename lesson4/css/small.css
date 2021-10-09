@@ -74,7 +74,15 @@ nav button {
 }
 
 nav {
+/*/
   background-color: #187795;
+/*/
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#54b9d8+8,187795+100 */
+background: #54b9d8; /* Old browsers */
+background: -moz-linear-gradient(top,  #54b9d8 8%, #187795 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #54b9d8 8%,#187795 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #54b9d8 8%,#187795 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54b9d8', endColorstr='#187795',GradientType=0 ); /* IE6-9 */
   text-align: center;
   box-shadow: 0 1px 10px rgb(121, 190, 173);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
