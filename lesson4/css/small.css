@@ -48,7 +48,9 @@ body {
   main a:link, main a:visited {
     color: #f46036;
   }
-  
+  header img {
+    float: left;
+  }
   main a:hover, main a:active {
     color: #d7b49e;
   }
