@@ -2,13 +2,14 @@
 @media only screen and (min-width: 64rem) {
 	h1 { font-size: 2rem;}
 	nav a {
-		font-size: 1.1rem;
+		font-size: 1.5rem;
 	}
   header,
   nav,
   main,
   footer {
-    max-width: 1500px;
+    font-size: 105%;
+    max-width: 1300px;
   }
 /*/
   nav ul li {
