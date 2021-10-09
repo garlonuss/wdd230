@@ -72,11 +72,11 @@ body {
   }
   #logo_75 {
     visibility: hidden;
-    margin: auto 0;
+    margin: auto 5px;
   }
   #logo_50 {
     visibility: block;
-    margin: auto 0;
+    margin: auto 5px;
   }
   #title {
     font-size: 13pt;

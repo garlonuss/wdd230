@@ -8,6 +8,12 @@
   #logo_50 {
     visibility: hidden;
   }
+  #title {
+    font-size: 16pt;
+  }
+  #slogan {
+    font-size: 13pt;
+  }
 
   nav button {display: none;}
 
