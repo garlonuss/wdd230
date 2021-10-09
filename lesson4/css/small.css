@@ -37,13 +37,15 @@ body {
     background-color: #2589bd;
     color:white;
     display: flex;
-    flex-flow: column;
     align-items: center;
     justify-content: center;
     padding: 10px;
     text-align: center;
   /*  font-weight: bold; */
     padding: .5em;
+  }
+  header {
+    flex-flow: column;
   }
   main a:link, main a:visited {
     color: #f46036;
