@@ -91,6 +91,13 @@ body {
     grid-column-start: 1;
     grid-column-end: 2;
   }
+  stamp {
+    display: block;
+    margin: 0 auto;
+    border: 8px dotted #fff;
+    padding: 15px;
+    background-color: sandybrown;
+  }
   header,
   nav,
   main,
