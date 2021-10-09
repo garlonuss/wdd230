@@ -10,9 +10,11 @@
   }
   #title {
     font-size: 16pt;
+    line-height: 17pt;
   }
   #slogan {
     font-size: 13pt;
+    line-height: 14pt;
   }
 
   nav button {display: none;}

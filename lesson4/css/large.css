@@ -9,9 +9,11 @@
   }
   #title {
     font-size: 24pt;
+    line-height: 25pt;
   }
   #slogan {
     font-size: 19pt;
+    line-height: 20pt;
   }
   .headtext {
     padding: 10pt;
