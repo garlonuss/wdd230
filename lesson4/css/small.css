@@ -54,6 +54,12 @@ body {
   main a:hover, main a:active {
     color: #d7b49e;
   }
+  #title{
+    font-size: 14pt;
+  }
+  #slogan{
+    font-size: 10pt;
+  }
   header,
   nav,
   main,
