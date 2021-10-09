@@ -70,6 +70,12 @@ body {
     grid-column-start: 2;
     grid-column-end: 4;
   }
+  #title {
+    font-size: 13pt;
+  }
+  #slogan {
+    font-size: 10pt;
+  }
   .icon {
     grid-column-start: 1;
     grid-column-end: 2;
