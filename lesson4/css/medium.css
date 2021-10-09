@@ -3,7 +3,7 @@
 	h1 { font-size: 1.5rem;}
 
   #logo_75 {
-    visibility: block;
+    visibility: visible;
   }
   #logo_50 {
     visibility: hidden;

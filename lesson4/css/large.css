@@ -2,7 +2,7 @@
 @media only screen and (min-width: 67rem) {
 	h1 { font-size: 2rem;}
   #logo_75 {
-    visibility: block;
+    visibility: visible;
   }
   #logo_50 {
     visibility: hidden;
