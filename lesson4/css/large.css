@@ -1,5 +1,15 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
+	h1 { font-size: 2rem;}
+	nav a {
+		font-size: 1.1rem;
+	}
+  header,
+  nav,
+  main,
+  footer {
+    max-width: 1000px;
+  }
   
   nav ul li {
     padding: .6rem 1rem;

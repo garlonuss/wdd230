@@ -1,9 +1,12 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
+	h1 { font-size: 1.5rem;}
 
   nav button {display: none;}
 
-  nav ul  {margin-left: 2%;}
+  nav ul  {
+    margin-left: 2%;
+  }
 
   nav ul li {
     float: left;
