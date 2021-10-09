@@ -1,8 +1,11 @@
 function toggleMenu() {
   document.getElementById("primaryNav").classList.toggle("hide");
 }
-document.querySelector('#copyrightyear').textContent = new Date().getFullYear();
+var today = new Date();
+document.querySelector('#copyrightyear').textContent = today.getFullYear();
 document.querySelector('#lastupdated').textContent = `Last Updated: ${document.lastModified}`;
+var month = new Array();
+var weekday = new Array();
 month[0] = "January";
 month[1] = "February";
 month[2] = "March";
@@ -22,4 +25,4 @@ weekday[4] = "Wednesday";
 weekday[5] = "Thursday";
 weekday[6] = "Friday";
 weekday[7] = "Saturday";
-document.querySelector('#todaysdate').textContent = `[Today: ${weekday[Date().getUTCDay()]}, ${month[Date().getMonth()]} ${Date().getDay()}, ${Date().getFullYear()}]`;
+document.querySelector('#todaysdate').textContent = `[Today: ${weekday[today.getUTCDay()]}, ${month[today.getMonth()]} ${today.getDay()}, ${today.getFullYear()}]`;
