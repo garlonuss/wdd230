@@ -1,0 +1,37 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 1200px) {
+	h1 { font-size: 2rem;}
+  #logo_75 {
+    visibility: visible;
+  }
+  #logo_50 {
+    visibility: hidden;
+  }
+  #title {
+    font-size: 24pt;
+    line-height: 25pt;
+  }
+  #slogan {
+    font-size: 17pt;
+    line-height: 20pt;
+  }
+  .headtext {
+    padding: 10pt;
+  }
+	nav a {
+		font-size: 1.5rem;
+	}
+  header,
+  nav,
+  main,
+  footer {
+    font-size: 105%;
+    max-width: 1200px;
+  }
+/*/
+  nav ul li {
+    padding: .6rem 1rem;
+  }
+/*/
+
+} /*end large */

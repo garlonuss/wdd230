@@ -1,0 +1,167 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+  /*  font-size: 10pt;*/
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    line-height: 14pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-top: 5pt;
+    margin: auto;
+    font-size: 16px;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    padding: 5px;
+    grid-area: main;
+  }
+  main img {
+    max-width: 90%;
+  }
+  header {
+    vertical-align: middle;
+    font-size: 30px;
+    flex-flow: column;
+  }
+  footer {
+    font-size: 13px;
+  }
+  header,
+  footer {
+    background-color: #2589bd;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+  /*  font-weight: bold; */
+    padding: .5em;
+  }
+  main a:link, main a:visited {
+    color: #f46036;
+  }
+  header img {
+    float: left;
+  }
+  main a:hover, main a:active {
+    color: #d7b49e;
+  }
+  #title{
+    font-size: 14pt;
+  }
+  #slogan{
+    font-size: 10pt;
+  }
+  header {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-gap: 5px;
+    padding: 5px;
+  }
+  .headtext {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  #logo_75 {
+    visibility: hidden;
+    margin: auto 5px;
+  }
+  #logo_50 {
+    visibility: block;
+    margin: auto 5px;
+  }
+  #title {
+    font-size: 13pt;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: bold;
+  }
+  #slogan {
+    font-size: 10pt;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .icon {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .stamp {
+    display: block;
+    margin: 0 auto;
+    border: 5px dotted #fff;
+    padding: 10px;
+    background-color: sandybrown;
+    max-width: 90%;
+  }
+  header,
+  nav,
+  main,
+  footer {
+/*  	max-width: 767px;*/
+	  margin: 0 auto;
+    max-width: 800px;
+  }
+  h1 {
+    font: 14pt 'Bebas Neue', cursive, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 20pt;
+  }
+nav button {
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: rgb(228, 234, 248);
+}
+
+nav {
+/*/
+  background-color: #187795;
+/*/
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#54b9d8+8,187795+100 */
+background: #54b9d8; /* Old browsers */
+background: -moz-linear-gradient(top,  #54b9d8 8%, #187795 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #54b9d8 8%,#187795 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #54b9d8 8%,#187795 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54b9d8', endColorstr='#187795',GradientType=0 ); /* IE6-9 */
+  text-align: center;
+  box-shadow: 0 1px 10px rgb(121, 190, 173);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  border: 1px solid rgba(0,0,0,.3);
+}
+
+nav ul li.active a{background-color: rgba(0,0,0,.2); color: white;}
+
+nav ul li a:hover {background-color: rgba(0,0,0,.4);}
+
+nav ul.hide {display: none;}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
