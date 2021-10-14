@@ -6,7 +6,7 @@ add.addEventListener('click', function () {
   itemText = entered.value;
   //      alert(itemText);
   entered.value = "";
-  if (itemText != "") {
+  if (itemText.trim() != "") {
     const listItem = document.createElement("li");
     const newSpan = document.createElement("span");
     const newButton = document.createElement("button");
