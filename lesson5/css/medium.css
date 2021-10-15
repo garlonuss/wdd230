@@ -16,6 +16,11 @@
     font-size: 13pt;
     line-height: 14pt;
   }
+/*/
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+/*/
 
   nav button {display: none;}
 
@@ -34,5 +39,11 @@
   }
 
   nav ul.hide {display: block;}
+
+/*/
+  .hero, .forecast, .article {
+    grid-column: 1 / 3;
+  }
+/*/
 
 } /*end medium */

@@ -29,6 +29,15 @@
     max-width: 1200px;
   }
 /*/
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .hero, .forecast, .article {
+    grid-column: 1 / 4;
+  }
+/*/
+
+/*/
   nav ul li {
     padding: .6rem 1rem;
   }

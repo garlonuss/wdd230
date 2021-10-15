@@ -26,3 +26,7 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 document.querySelector('#todaysdate').textContent = `[Today: ${weekday[today.getDay()]}, ${month[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}]`;
+
+if (today.getDay() == 4) {
+  document.querySelector('.banner').setAttribute("style", "display: block;");
+}

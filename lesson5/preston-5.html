@@ -18,10 +18,11 @@
 
   <title>HTML5 page Ryan Peterson</title>
 
-  <script defer src=""></script>
+  <script defer src="js/myjavascript.js"></script>
 </head>
 
 <body>
+  <div class="banner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
   <header>
     <div class="icon"><img src="images/logo_75.png" id="logo_75"><img src="images/logo_50.png" id="logo_50"></div>
     <div class="headtext">
@@ -42,20 +43,30 @@
   </nav>
 
   <main>
-    <div class="stamp">Hero w/ weather summary</div>
+    <div class="stamp hero">
+      <div id="heroimg"></div>
+      <div id="summary">
+        <h3>Weather Summary</h3>
+        Currently: Sunny
+        Temperature: 45 &deg;F
+        Wind Chill: 25 &deg;F
+        Humidity: 65%
+        Wind Speed: 7 mph
+      </div>
+    </div>
     <div class="stamp forecast">5 Day Forecast</div>
     <div class="stamp">Article</div>
     <div class="stamp">Contact Info</div>
   </main>
 
   <footer>
-    <p>&#169; <span id="copyrightyear">20X6</span> | Ryan Peterson | Utah | BYU-I Online Learning<br>
+    <p>contact information | location map | a terms of use link</br>
+      &#169; <span id="copyrightyear">20X6</span> | Ryan Peterson | Utah | BYU-I Online Learning<br>
       <span id="lastupdated"></span><br>
       <span id="todaysdate"></span><br><a href="https://garlonuss.github.io/wdd230/">Back Up</a>
     </p>
   </footer>
 
-  <script src="js/myjavascript.js"></script>
 </body>
 
 </html>
