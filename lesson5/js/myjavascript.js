@@ -27,6 +27,13 @@ weekday[5] = "Friday";
 weekday[6] = "Saturday";
 document.querySelector('#todaysdate').textContent = `[Today: ${weekday[today.getDay()]}, ${month[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}]`;
 
-if (today.getDay() == 4) {
+if (today.getDay() == 5) {
   document.querySelector('.banner').setAttribute("style", "display: block;");
 }
+
+var dayvalue = today.getDay();
+document.querySelector('#day1').textContent = `${weekday[dayvalue]}`;
+document.querySelector('#day2').textContent = `${weekday[((dayvalue + 1) % 7)]}`;
+document.querySelector('#day3').textContent = `${weekday[((dayvalue + 2) % 7)]}`;
+document.querySelector('#day4').textContent = `${weekday[((dayvalue + 3) % 7)]}`;
+document.querySelector('#day5').textContent = `${weekday[((dayvalue + 4) % 7)]}`;

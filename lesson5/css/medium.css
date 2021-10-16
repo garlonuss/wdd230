@@ -16,6 +16,9 @@
     font-size: 13pt;
     line-height: 14pt;
   }
+  body {
+    font-size: 15px;
+  }
 /*/
   main {
     grid-template-columns: 1fr 1fr;
@@ -39,6 +42,56 @@
   }
 
   nav ul.hide {display: block;}
+  #heroimg {
+    height: 150px;
+    border-radius: 7px;
+  }
+  .hero {
+    position: relative;
+  }
+  .summary {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    min-width: 200px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+  }
+  #day1, #day2, #day3, #day4, #day5 {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    font-size: 9pt;
+  }
+  .article {
+    display: block;
+    text-align: justify;
+  }
+  .article img {
+    max-width: 30%;
+    max-height: 40%;
+    float: right;
+  }
+  #socialmedia {
+    display: block;
+  }
+  #terminator {
+    flex-direction: row;
+  }
+  #locationmap {
+    order: 1;
+  }
+  #innermator {
+    order:2;
+  }
+  #locationmap img {
+    max-width: 80%;
+    max-height: 130px;
+  }
+  .address {
+    display: block;
+  }
+
 
 /*/
   .hero, .forecast, .article {

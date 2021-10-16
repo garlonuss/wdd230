@@ -45,23 +45,65 @@
   <main>
     <div class="stamp hero">
       <div id="heroimg"></div>
-      <div id="summary">
+      <div class="summary">
         <h3>Weather Summary</h3>
-        Currently: Sunny
-        Temperature: 45 &deg;F
-        Wind Chill: 25 &deg;F
-        Humidity: 65%
-        Wind Speed: 7 mph
+        <div class="stat">Currently:</div>
+        <div class="data">Sunny</div>
+        <div class="stat">Temperature:</div>
+        <div class="data">45 &deg;F</div>
+        <div class="stat">Wind Chill:</div>
+        <div class="data">25 &deg;F</div>
+        <div class="stat">Humidity:</div>
+        <div class="data">65%</div>
+        <div class="stat">Wind Speed:</div>
+        <div class="data">7 mph</div>
       </div>
     </div>
-    <div class="stamp forecast">5 Day Forecast</div>
-    <div class="stamp">Article</div>
-    <div class="stamp">Contact Info</div>
+    <div class="stamp forecast">
+      <h3>5 Day Forecast</h3>
+      <div id="day1"></div>
+      <div id="day2"></div>
+      <div id="day3"></div>
+      <div id="day4"></div>
+      <div id="day5"></div>
+    </div>
+    <div class="stamp article">
+      <img
+        src="https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+      <h3>Article Title</h3>
+      <div class=articletext>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+    <!--    <div class="stamp">Contact Info</div>-->
   </main>
 
   <footer>
-    <p>contact information | location map | a terms of use link</br>
-      &#169; <span id="copyrightyear">20X6</span> | Ryan Peterson | Utah | BYU-I Online Learning<br>
+    <div id="terminator">
+      <div id="locationmap"><img src="images/googlemap.png"></div>
+      <div id="innermator">
+        <div id="contact">
+          <div class="address stat">Address:</div>
+          <div class="address data">321 Fake Street, Preston, Idaho 83263</div>
+          <div class="phone stat">Phone:</div>
+          <div class="phone data">Klondike-4536</div>
+          <div class="email stat">Email:</div>
+          <div class="email data">Info@sky-my-eyes.com</div>
+        </div>
+        <div id="termsofuse"><a href="#">Terms of Use</a></div>
+        <div id="socialmedia"><img src="images/Facebook50.png"><img src="images/Twitter50.png"><img
+            src="images/Yelp50.png"></div>
+      </div>
+    </div>
+    <p>&#169; <span id="copyrightyear">20X6</span> | Ryan Peterson | Utah | BYU-I Online Learning<br>
       <span id="lastupdated"></span><br>
       <span id="todaysdate"></span><br><a href="https://garlonuss.github.io/wdd230/">Back Up</a>
     </p>
