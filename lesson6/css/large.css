@@ -41,6 +41,9 @@
     max-width: 80%;
     max-height: 150px;
   }
+  #heroimg {
+    background-image: url("./images/wdd230_image_franklin_large.png");
+      }
 /*/
   main {
     grid-template-columns: 1fr 1fr 1fr;
