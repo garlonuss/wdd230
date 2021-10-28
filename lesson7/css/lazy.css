@@ -1,0 +1,13 @@
+img[data-src] {
+  filter: blur(1em);
+}
+img {
+  margin: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px;
+  padding: 5px;
+  filter: blur(0em);
+  transition: filter 1.5s;
+}
