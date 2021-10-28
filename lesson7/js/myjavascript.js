@@ -1,3 +1,33 @@
+
+let imagesToLoad = document.querySelectorAll('img[data-src]');
+const imgOptions = {
+  threshold: 1,
+  rootMargin: "0px 0px 50px 0px"
+}
+const loadImages = (image) => {
+  image.setAttribute('src', image.getAttribute('data-src'));
+  image.onload = () => {
+    image.removeAttribute('data-src');
+  };
+};
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver((items, observer) => {
+    items.forEach((item) => {
+      if (item.isIntersecting) {
+        loadImages(item.target);
+        observer.unobserve(item.target);
+      }
+    });
+  });
+  imagesToLoad.forEach((img) => {
+    observer.observe(img);
+  });
+} else {
+  imagesToLoad.forEach((img) => {
+    loadImages(img);
+  });
+}
+
 function toggleMenu() {
   document.getElementById("primaryNav").classList.toggle("hide");
 }
@@ -37,32 +67,3 @@ document.querySelector('#day2').textContent = `${weekday[((dayvalue + 1) % 7)]}`
 document.querySelector('#day3').textContent = `${weekday[((dayvalue + 2) % 7)]}`;
 document.querySelector('#day4').textContent = `${weekday[((dayvalue + 3) % 7)]}`;
 document.querySelector('#day5').textContent = `${weekday[((dayvalue + 4) % 7)]}`;
-
-let imagesToLoad = document.querySelectorAll('img[data-src]');
-const imgOptions = {
-  threshold: 1,
-  rootMargin: "0px 0px 50px 0px"
-}
-const loadImages = (image) => {
-  image.setAttribute('src', image.getAttribute('data-src'));
-  image.onload = () => {
-    image.removeAttribute('data-src');
-  };
-};
-if ('IntersectionObserver' in window) {
-  const observer = new IntersectionObserver((items, observer) => {
-    items.forEach((item) => {
-      if (item.isIntersecting) {
-        loadImages(item.target);
-        observer.unobserve(item.target);
-      }
-    });
-  });
-  imagesToLoad.forEach((img) => {
-    observer.observe(img);
-  });
-} else {
-  imagesToLoad.forEach((img) => {
-    loadImages(img);
-  });
-}
