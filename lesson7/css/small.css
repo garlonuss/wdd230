@@ -315,6 +315,14 @@ nav ul li a {
     text-shadow: 0 0 40px #4dafff;
   }
 }
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 35px #0023e6;
+  }
+  to {
+    text-shadow: 0 0 40px #4dafff;
+  }
+}
 
 .museum {
   display: flex;
@@ -330,7 +338,8 @@ nav ul li a:hover {background-color: rgba(0,0,0,.4); animation: glow 1s ease-in-
 nav ul.hide {display: none;}
 
 .galleryentry img[data-src] {
-  filter: blur(.25em);
+  filter: blur(1em) grayscale(100%) sepia(30%);
+  width: 95%;
 }
 .galleryentry{
   width: 95%;
@@ -354,8 +363,10 @@ nav ul.hide {display: none;}
   padding: 0px;
   margin:0px;
   width: 100%;
-  filter: blur(0em);
-  transition: filter 1.5s;
+  filter: blur(0em) grayscale(0%) sepia(00%);
+  transition: width, filter;
+  transition-timing-function:ease-in-out;
+  transition-duration: 1s;
 }
 .galleryentry:hover {
   width: 100%;
