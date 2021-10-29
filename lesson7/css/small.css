@@ -108,7 +108,7 @@ body {
   }
   .stamp {
     display: block;
-    margin: 0 auto;
+    margin: 5px auto;
     border: 5px dotted #fff;
     padding: 10px;
     background-color: rgba(137, 174, 243,30%);

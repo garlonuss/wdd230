@@ -129,10 +129,11 @@ function setVisit(todaysDate) {
 /*/
 This section is for populating the 5 day forecast
 /*/
-var dayvalue = today.getDay();
-document.querySelector('#day1').textContent = `${weekday[dayvalue]}`;
-document.querySelector('#day2').textContent = `${weekday[((dayvalue + 1) % 7)]}`;
-document.querySelector('#day3').textContent = `${weekday[((dayvalue + 2) % 7)]}`;
-document.querySelector('#day4').textContent = `${weekday[((dayvalue + 3) % 7)]}`;
-document.querySelector('#day5').textContent = `${weekday[((dayvalue + 4) % 7)]}`;
-
+if (document.querySelector('#day1')) {
+  var dayvalue = today.getDay();
+  document.querySelector('#day1').textContent = `${weekday[dayvalue]}`;
+  document.querySelector('#day2').textContent = `${weekday[((dayvalue + 1) % 7)]}`;
+  document.querySelector('#day3').textContent = `${weekday[((dayvalue + 2) % 7)]}`;
+  document.querySelector('#day4').textContent = `${weekday[((dayvalue + 3) % 7)]}`;
+  document.querySelector('#day5').textContent = `${weekday[((dayvalue + 4) % 7)]}`;
+}
