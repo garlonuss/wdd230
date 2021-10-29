@@ -23,9 +23,11 @@ body {
 /*    grid-template-columns: 1fr;*/
     padding: 5px;
   }
+/*/
   main img {
     max-width: 90%;
   }
+/*/
   header {
     vertical-align: middle;
     font-size: 30px;
@@ -321,21 +323,29 @@ nav ul li a:hover {background-color: rgba(0,0,0,.4); animation: glow 1s ease-in-
 
 nav ul.hide {display: none;}
 
-.museum .stamp img[data-src] {
+.galleryentry img[data-src] {
   filter: blur(.25em);
 }
-.museum .stamp img {
+.galleryentry{
+  width: 100%;
+  background: rgba(255,255,255,.5);
+  align-content: center;
+}
+.galleryentry img {
+/*/
   margin: 5px;
-  width: 97%;
   border-color: black;
   border-style: solid;
   border-width: 1px;
   border-radius: 7px;
   padding: 5px;
+/*/
+  padding: 0px;
+  margin:0px;
+  width: 100%;
   filter: blur(0em);
   transition: filter 1.5s;
 }
-
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

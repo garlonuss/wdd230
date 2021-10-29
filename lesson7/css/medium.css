@@ -68,6 +68,11 @@
     max-height: 40%;
     float: right;
   }
+  .artpiece {
+    float:unset;
+    align: center;
+    width:100%;
+  }
   #socialmedia {
     display: block;
   }
