@@ -64,6 +64,10 @@ body {
   #slogan{
     font-size: 10pt;
   }
+  #lastTimeHere{
+    font-size: 8pt;
+    color: rgba(255,255,255,.5);
+  }
   header {
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;

@@ -16,6 +16,10 @@
     font-size: 13pt;
     line-height: 14pt;
   }
+  #lastTimeHere{
+    font-size: 10pt;
+    color: rgba(255,255,255,.5);
+  }
   body {
     font-size: 15px;
   }

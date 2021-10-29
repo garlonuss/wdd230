@@ -15,6 +15,10 @@
     font-size: 17pt;
     line-height: 20pt;
   }
+  #lastTimeHere{
+    font-size: 12pt;
+    color: rgba(255,255,255,.5);
+  }
   body {
     font-size: 16px;
   }
@@ -46,6 +50,9 @@
   }
   .museum .stamp {
     max-width: 32%;
+  }
+  .galleryentry:hover {
+    box-shadow: 8px 10px 6px rgba(0,100,150,.5);
   }
   /*/
   main {
