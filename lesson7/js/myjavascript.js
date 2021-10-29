@@ -116,12 +116,12 @@ function setVisit(todaysDate) {
   /*/
   if (lastTimeHere == todaysDate) {
     if (firstTimeHere == lastTimeHere) {
-      document.getElementById('lastTimeHere').textContent = `You haven't visited this page before today.`;
+      document.getElementById('lastTimeHere').textContent = `You haven't visited before today.`;
     } else {
-      document.getElementById('lastTimeHere').textContent = `Your last visit here was earlier today.`;
+      document.getElementById('lastTimeHere').textContent = `Your last visit was earlier today.`;
     }
   } else {
-    document.getElementById('lastTimeHere').textContent = `Your last time viewing this page was ${span} days ago.`;
+    document.getElementById('lastTimeHere').textContent = `Your last time here was ${span} days ago.`;
   }
   localStorage.setItem('lastVisit', todaysDate);
 }
