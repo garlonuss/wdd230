@@ -333,9 +333,14 @@ nav ul.hide {display: none;}
   filter: blur(.25em);
 }
 .galleryentry{
-  width: 100%;
+  width: 95%;
   background: rgba(255,255,255,.5);
   align-content: center;
+  margin: 0 auto;
+  font-size: .95em;
+  transition: width, font-size;
+  transition-timing-function:ease-in-out;
+  transition-duration: 1.5s;
 }
 .galleryentry img {
 /*/
@@ -351,6 +356,14 @@ nav ul.hide {display: none;}
   width: 100%;
   filter: blur(0em);
   transition: filter 1.5s;
+}
+.galleryentry:hover {
+  width: 100%;
+  font-size: 1em;
+  margin:0;
+  transition: width, font-size;
+  transition-timing-function:ease-in-out;
+  transition-duration: 1.5s;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
