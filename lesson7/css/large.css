@@ -53,8 +53,16 @@
   }
   .galleryentry:hover {
     box-shadow: 8px 10px 10px rgba(0,100,150,.5);
+    transition: width, font-size, box-shadow;
+    transition-timing-function:ease-in-out;
+    transition-duration: 1.5s;
   }
-  /*/
+  .galleryentry {
+    transition: width, font-size, box-shadow;
+    transition-timing-function:ease-in-out;
+    transition-duration: 1s;
+  }
+    /*/
   main {
     grid-template-columns: 1fr 1fr 1fr;
   }
