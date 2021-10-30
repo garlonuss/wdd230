@@ -52,12 +52,23 @@
     max-width: 32%;
   }
   .galleryentry:hover {
+    width: 100%;
+    font-size: 1em;
+    margin:0;
+    transition: width, font-size;
+    transition-timing-function:ease-in-out;
+    transition-duration: 1.5s;
+  }
+  .galleryentry:hover {
     box-shadow: 8px 10px 10px rgba(0,100,150,.5);
     transition: width, font-size, box-shadow;
     transition-timing-function:ease-in-out;
     transition-duration: 1.5s;
   }
   .galleryentry {
+    width: 98%;
+    font-size: .98em;
+    box-shadow: 0px 0px 0px rgba(0,100,150,.5);
     transition: width, font-size, box-shadow;
     transition-timing-function:ease-in-out;
     transition-duration: 1s;
