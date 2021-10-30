@@ -16,14 +16,13 @@
     font-size: 13pt;
     line-height: 14pt;
   }
+  #lastTimeHere{
+    font-size: 10pt;
+    color: rgba(255,255,255,.5);
+  }
   body {
     font-size: 15px;
   }
-/*/
-  main {
-    grid-template-columns: 1fr 1fr;
-  }
-/*/
 
   nav button {display: none;}
 
@@ -73,6 +72,10 @@
     max-height: 40%;
     float: right;
   }
+  .artpiece {
+    float:unset;
+    width:100%;
+  }
   #socialmedia {
     display: block;
   }
@@ -96,8 +99,12 @@
     max-width: 48%;
   }  
 
-
 /*/
+  .main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+
   .hero, .forecast, .article {
     grid-column: 1 / 3;
   }
