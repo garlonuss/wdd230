@@ -371,7 +371,6 @@ nav ul.hide {display: none;}
 }
 
 #new-form {
-  background-color: rgba(255,255,255,.5);
   display:flex;
   flex-flow: column;
   font-size: 120%;
@@ -380,6 +379,19 @@ label {
   margin: 10px 0;
   display:flex;
   flex-flow: column-reverse;
+}
+label input + div, label textarea + div {
+  color: black;
+  transition: color, text-shadow;
+  transition-duration: .7s;
+  transition-timing-function: ease-in-out;
+}
+label input:focus + div, label textarea:focus + div {
+  color: rgb(202, 40, 154);
+  text-shadow: 0 0 10px rgb(228, 255, 105);
+  transition: color, text-shadow;
+  transition-duration: .7s;
+  transition-timing-function: ease-in-out;
 }
 #submit {
   display: block;

@@ -51,11 +51,11 @@
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
       <li><a href="#">Home</a></li>
-      <li><a href="#" href="preston-8.html">Preston</a></li>
+      <li><a href="preston-8.html">Preston</a></li>
       <li><a href="#">Soda Springs</a></li>
       <li><a href="#">Fish Haven</a></li>
       <li><a class="active" href="stormcenter.html">Storm Center</a></li>
-      <li><a href="gallery-7.html">Gallery</a></li>
+      <li><a href="gallery-8.html">Gallery</a></li>
     </ul>
   </nav>
 
@@ -112,8 +112,6 @@
         </label>
         <label for="severity">
           <span id="severity_text">(5)</span>
-          <input type="range" name="severity" id="severity" min=1 value=5 max=10 onchange="severity_text(this.value)"
-            list="ticks">
           <datalist id="ticks">
             <option value="1">
             <option value="2">
@@ -126,15 +124,17 @@
             <option value="9">
             <option value="10">
           </datalist>
+          <input type="range" name="severity" id="severity" min=1 value=5 max=10 onchange="severity_text(this.value)"
+            list="ticks">
           <div>Severity</div>
         </label>
         <label for="region">
-          <input list="Regions" name="region" id="region">
           <datalist id="Regions">
             <option value="Preston">
             <option value="Soda Springs">
             <option value="Fish Haven">
           </datalist>
+          <input list="Regions" name="region" id="region">
           <div>Region</div>
         </label>
         <label for="danger" id="dangerbox">
@@ -144,7 +144,7 @@
               for="danger2">Maybe</label></div>
           <div class="radios"><input type="radio" value="3" name="danger" id="danger3"><label for="danger3">No</label>
           </div>
-          User in danger?
+          <div>User in danger?</div>
         </label>
         <label for="comments" id="commentext">
           <textarea name="comments" id="comments" rows=4 columns=50></textarea>
