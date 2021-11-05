@@ -1,0 +1,141 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="assignment">
+  <meta name="author" content="Ryan Peterson">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <title>HTML5 page Ryan Peterson</title>
+
+  <script defer src="js/myjavascript.js"></script>
+  <script defer src="js/windchill.js"></script>
+</head>
+
+<body>
+  <div class="banner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+  <header>
+    <div class="icon"><img src="images/logo_75.png" id="logo_75" alt="Site Logo"><img src="images/logo_50.png"
+        id="logo_50" alt="Site Logo"></div>
+    <div class="headtext">
+      <div id="title">Sky My Eyes Out</div>
+      <div id="slogan">Never Reign Doubt</div>
+      <div id="lastTimeHere"></div>
+    </div>
+  </header>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+      <li><a href="#">Home</a></li>
+      <li><a class="active" href="#">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+      <li><a href="gallery-7.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="stamp">
+      <!--
+      a.  full name using input of type text and is required and only accepts alpha characters with a minimum of five characters using a regular expression pattern (Links to an external site.)
+      b.  email using input of type email and use a placeholder to provide a demo email
+      c.  phone number using input of type tel and is required
+      d.  zip code using input of type number and is required
+      e.  storm date using input of type date
+      f.  storm type using input with a list attribute referencing a datalist of suggestions that include "Flash Flood," "Hail," "Hurricane," "Thunderstorm," and "Tornado."
+      g.  storm severity using type range (1 to 10) with a corresponding label that indicates the current range value from 1 to 10.
+          Hint: See the Pen HTML Form example objects (Links to an external site.)
+      h.  storm region using select with drop-down options of "Preston", "Soda Springs", and "Fish Haven".
+          Add a first option with the text "Select Region ..." that is shown by default but not selectable (disabled).
+          The rest of the options should have relevant value attributes.
+      i.  user in-danger level using input of type radio with options and values of "yes," "maybe," and "no."
+      j.  additional information or comments using a textarea
+      k.  form submission button using input of type submit
+      -->
+      <form id="new_form">
+        Please fill in the following information to report a storm:
+        <label for="full-name">
+          Full Name
+          <input type="text" required pattern="[a-zA-Z]" name="full-name" id="full-name">
+        </label>
+        <label for="email">
+          Email Address
+          <input type="" name="email" id="email">
+        </label>
+        <label for="phone">
+          Phone Number
+          <input type="" name="phone" id="phone">
+        </label>
+        <label for="zip">
+          Zip Code<input type="" name="zip" id="zip">
+        </label>
+        <label for="date">
+          Storm Date
+          <input type="" name="date" id="date">
+        </label>
+        <label for="type">
+          Storm Type
+          <input type="" name="type" id="type">
+        </label>
+        <label for="severity">
+          Severity
+          <input type="" name="severity" id="severity">
+        </label>
+        <label for="region">
+          Region
+          <input type="" name="region" id="region">
+        </label>
+        <label for="danger">
+          User in danger?
+          <input type="" name="danger" id="danger">
+        </label>
+        <label for="comments">
+          Additional Comments
+          <input type="" name="comments" id="comments">
+        </label>
+        <label for="submit">
+          Add Storm To Database
+          <input type="" name="submit" id="submit">
+        </label>
+      </form>
+    </div>
+    <!--    <div class="stamp">Contact Info</div>-->
+  </main>
+
+  <footer>
+    <div id="terminator">
+      <div id="locationmap"><img src="images/googlemap.png" alt="google maps image"></div>
+      <div id="innermator">
+        <div id="contact">
+          <div class="address stat">Address:</div>
+          <div class="address data">321 Fake Street, Preston, Idaho 83263</div>
+          <div class="phone stat">Phone:</div>
+          <div class="phone data">Klondike-4536</div>
+          <div class="email stat">Email:</div>
+          <div class="email data">Info@sky-my-eyes.com</div>
+        </div>
+        <div id="termsofuse"><a href="#">Terms of Use</a></div>
+        <div id="socialmedia"><img src="images/Facebook50.png" alt="facebook"><img src="images/Twitter50.png"
+            alt="twitter"><img src="images/Yelp50.png" alt="yelp"></div>
+      </div>
+    </div>
+    <p>&#169; <span id="copyrightyear">20X6</span> | Ryan Peterson | Utah | BYU-I Online Learning<br>
+      <span id="lastupdated"></span><br>
+      <span id="todaysdate"></span><br><a href="https://garlonuss.github.io/wdd230/">Back Up</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
