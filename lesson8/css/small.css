@@ -370,10 +370,61 @@ nav ul.hide {display: none;}
   transition-duration: 1s;
 }
 
+#new-form {
+  background-color: rgba(255,255,255,.5);
+  display:flex;
+  flex-flow: column;
+  font-size: 120%;
+}
+label {
+  margin: 10px 0;
+  display:flex;
+  flex-flow: column-reverse;
+}
+#submit {
+  display: block;
+  margin:auto;
+}
+input {
+  padding:10px;
+}
+input:required + div::after {
+  content: " [Required]";
+  color: red;
+  font-size: 80%;
+}
+input:optional + div::after, textarea:optional + div::after {
+  content: " (optional)";
+  color: grey;
+  font-size: 80%;
+}
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+#severity_text {
+  align-self: center;
+  margin: -10px 0 0 0;
+  padding:0;
+}
+#dangerbox{
+  flex-direction: row-reverse;
+}
+.radios {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  vertical-align: top;
+}
+input[type='radio'] {
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+  margin:0 5px;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
-

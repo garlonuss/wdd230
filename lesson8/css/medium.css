@@ -96,7 +96,42 @@
     max-width: 48%;
   }  
 
-
+  #new-form {
+    flex-flow:wrap;
+    font-size: 110%;
+  }
+  label {
+    margin:15px 30px;
+  }
+  #commentext {
+    margin:5px auto;
+    width: 35em;
+  }
+  #full-name, #email {
+    width:30em;
+  }
+  #zip {
+    width:6em;
+  }
+  #phone {
+    width:12em;
+  }
+  #date {
+    width: 12em;
+  }
+  #type {
+    width: 14em;
+  }
+  #region {
+    width: 15em;
+  }
+  input[type='radio'] {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    margin:0 auto;
+  }
+    
 /*/
   .hero, .forecast, .article {
     grid-column: 1 / 3;

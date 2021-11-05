@@ -16,10 +16,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon.ico">
 
-  <title>HTML5 page Ryan Peterson</title>
+  <title>Storm Center</title>
 
   <script defer src="js/myjavascript.js"></script>
-  <script defer src="js/windchill.js"></script>
+  <script>
+    function ziptrim() {
+      let intermed = document.getElementById('zip').value;
+      if (intermed.length == 5 || intermed.length == 0) {
+        document.getElementById('zip').setCustomValidity("");
+      } else {
+        //document.getElementById('zip').value = intermed.substring(0, 5);
+        document.getElementById('zip').setCustomValidity("Invalid field.");
+        //alert("Zip Code can only be 5 digits")
+      }
+    }
+    function severity_text(severity) {
+      document.getElementById('severity_text').innerHTML = "(" + severity + ")";
+    }
+  </script>
 </head>
 
 <body>
@@ -37,7 +51,7 @@
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
       <li><a href="#">Home</a></li>
-      <li><a class="active" href="#">Preston</a></li>
+      <li><a href="#" href="preston-8.html">Preston</a></li>
       <li><a href="#">Soda Springs</a></li>
       <li><a href="#">Fish Haven</a></li>
       <li><a class="active" href="stormcenter.html">Storm Center</a></li>
@@ -63,50 +77,82 @@
       j.  additional information or comments using a textarea
       k.  form submission button using input of type submit
       -->
-      <form id="new_form">
+      <form id="new-form" action="thanks.html" method="get">
         Please fill in the following information to report a storm:
         <label for="full-name">
-          Full Name
-          <input type="text" required pattern="[a-zA-Z]" name="full-name" id="full-name">
+          <input type="text" required pattern="[a-zA-Z]*" name="full-name" id="full-name">
+          <div>Full Name</div>
         </label>
         <label for="email">
-          Email Address
-          <input type="" name="email" id="email">
+          <input type="email" name="email" id="email" placeholder="John.Smith@email.com">
+          <div>Email Address</div>
         </label>
         <label for="phone">
-          Phone Number
-          <input type="" name="phone" id="phone">
+          <input type="tel" required name="phone" id="phone">
+          <div>Phone Number</div>
         </label>
         <label for="zip">
-          Zip Code<input type="" name="zip" id="zip">
+          <input type="number" name="zip" id="zip" maxlength="5" size="5" onChange="ziptrim()">
+          <div>Zip Code (5)</div>
         </label>
         <label for="date">
-          Storm Date
-          <input type="" name="date" id="date">
+          <input type="date" name="date" id="date">
+          <div>Storm Date</div>
         </label>
         <label for="type">
-          Storm Type
-          <input type="" name="type" id="type">
+          <datalist id="StormType">
+            <option value="Flash Flood">
+            <option value="Hail">
+            <option value="Hurricane">
+            <option value="Thunderstorm">
+            <option value="Tornado">
+          </datalist>
+          <input list="StormType" name="type" id="type">
+          <div>Storm Type</div>
         </label>
         <label for="severity">
-          Severity
-          <input type="" name="severity" id="severity">
+          <span id="severity_text">(5)</span>
+          <input type="range" name="severity" id="severity" min=1 value=5 max=10 onchange="severity_text(this.value)"
+            list="ticks">
+          <datalist id="ticks">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9">
+            <option value="10">
+          </datalist>
+          <div>Severity</div>
         </label>
         <label for="region">
-          Region
-          <input type="" name="region" id="region">
+          <input list="Regions" name="region" id="region">
+          <datalist id="Regions">
+            <option value="Preston">
+            <option value="Soda Springs">
+            <option value="Fish Haven">
+          </datalist>
+          <div>Region</div>
         </label>
-        <label for="danger">
+        <label for="danger" id="dangerbox">
+          <div class="radios"><input type="radio" value="1" name="danger" id="danger1"><label for="danger1">Yes</label>
+          </div>
+          <div class="radios"><input type="radio" value="2" name="danger" id="danger2"><label
+              for="danger2">Maybe</label></div>
+          <div class="radios"><input type="radio" value="3" name="danger" id="danger3"><label for="danger3">No</label>
+          </div>
           User in danger?
-          <input type="" name="danger" id="danger">
         </label>
-        <label for="comments">
-          Additional Comments
-          <input type="" name="comments" id="comments">
+        <label for="comments" id="commentext">
+          <textarea name="comments" id="comments" rows=4 columns=50></textarea>
+          <div>Additional Comments</div>
         </label>
-        <label for="submit">
-          Add Storm To Database
-          <input type="" name="submit" id="submit">
+        <label for="submit" id="submit">
+          <div>Add Storm To Database</div>
+          <input type="Submit" name="submit" id="submit" text="Add">
         </label>
       </form>
     </div>

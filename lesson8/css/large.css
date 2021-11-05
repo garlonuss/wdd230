@@ -69,7 +69,28 @@
     transition-timing-function:ease-in-out;
     transition-duration: 1s;
   }
-/*/
+
+  #new-form {
+    flex-flow:wrap;
+    font-size: 100%;
+  }
+  label {
+    margin:25px auto;
+  }
+  #commentext {
+    margin:5px auto;
+    width: 55em;
+  }
+  #full-name, #email {
+    width:30em;
+  }
+  input[type='radio'] {
+    height: 25px;
+    width: 25px;
+    vertical-align: bottom;
+    margin:0 5px;
+  }
+  /*/
   main {
     grid-template-columns: 1fr 1fr 1fr;
   }
