@@ -125,12 +125,19 @@
   #region {
     width: 15em;
   }
+  .radios label {
+    top: -.55em;
+    left: .5em;
+  }
+    
+  /*/
   input[type='radio'] {
     height: 15px;
     width: 15px;
     vertical-align: middle;
     margin:0 auto;
   }
+  /*/
     
 /*/
   .hero, .forecast, .article {

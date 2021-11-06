@@ -422,16 +422,21 @@ input:invalid {
   flex-direction: row-reverse;
 }
 .radios {
-  display: flex;
-  flex-direction: row;
+  position: relative;
   margin: 5px;
-  vertical-align: top;
+  vertical-align: bottom;
+  width:5.5em;
+}
+.radios label {
+  position: absolute;
+  top: -.25em;
+  left: 2.5em;
 }
 input[type='radio'] {
   height: 25px;
   width: 25px;
   vertical-align: middle;
-  margin:0 5px;
+  margin:0 auto;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
