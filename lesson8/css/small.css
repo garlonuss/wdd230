@@ -401,7 +401,7 @@ input {
   padding:10px;
 }
 input:required + div::after {
-  content: " [Required]";
+  content: " [*]";
   color: red;
   font-size: 80%;
 }
