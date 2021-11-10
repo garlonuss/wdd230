@@ -130,7 +130,32 @@
     left: .5em;
   }
     
-  /*/
+
+
+  .cities .stamp {
+    position: unset;
+    display: flex;
+    flex-flow: row;
+  }
+  .cities .stamp:nth-child(even) {
+    flex-flow: row-reverse;
+  }
+  .citystats {
+    position: unset;
+    background-color:unset;
+    font-size: 120%;
+    text-shadow: unset;
+  }
+  .cities .stamp img {
+    width:60%;
+  }
+  #firsttime:hover {
+    width: 55%;
+    height: 60%;
+  }
+    
+  
+    /*/
   input[type='radio'] {
     height: 15px;
     width: 15px;

@@ -25,8 +25,9 @@ fetch(requestURL)
       h2.textContent = cities[i].motto;
       founded.textContent = 'Year Founded: ' + cities[i].yearFounded;
       population.textContent = 'Population: ' + cities[i].currentPopulation;
-      precip.textContent = 'Annual Rain Fall: ' + cities[i].birthplace;
-      cimg.src = cities[i].photo;
+      precip.textContent = 'Annual Rain Fall: ' + cities[i].averageRainfall;
+      //cimg.src = 'images/' + cities[i].photo.replace(".jpg", ".png");
+      cimg.src = 'images/' + cities[i].photo;
 
       info.appendChild(h1);
       info.appendChild(h2);

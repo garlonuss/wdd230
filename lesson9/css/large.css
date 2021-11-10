@@ -89,6 +89,31 @@
     left: 2.5em;
   }
 
+
+  .cities {
+    display: flex;
+    flex-flow: wrap;
+  }
+  .cities .stamp {
+    width: 30%;
+    flex-flow: column;
+  }
+  .cities .stamp:nth-child(even) {
+    flex-flow: column;
+  }
+  .citystats {
+    font-size: 110%;
+    width: 100%;
+    text-align: center;
+  }
+  .cities .stamp img {
+    width:100%;
+  }
+  #firsttime:hover {
+    width: 40%;
+    height: 70%;
+  }
+
   /*/
   input[type='radio'] {
     height: 25px;
