@@ -13,6 +13,7 @@ fetch(requestURL)
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
       let bDay = document.createElement('p');
+      //bDay.classList.add('MyClass');
       let bSite = document.createElement('p');
       let pImg = document.createElement('img');
 
@@ -30,8 +31,3 @@ fetch(requestURL)
       document.querySelector('div.cards').appendChild(card);
     }
   });
-/*/
-fetch(requestURL)
-  .then(response => response.json())
-  .then(jsonObject => console.table(jsonObject));
-/*/
