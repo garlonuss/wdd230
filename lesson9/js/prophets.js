@@ -16,6 +16,7 @@ fetch(requestURL)
       //bDay.classList.add('MyClass');
       let bSite = document.createElement('p');
       let pImg = document.createElement('img');
+      pImg.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order);
 
       h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
       bDay.textContent = 'Date of Birth: ' + prophets[i].birthdate;
