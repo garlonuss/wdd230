@@ -19,8 +19,8 @@ fetch(requestURL)
       pImg.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order);
 
       h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-      bDay.textContent = 'Date of Birth: ' + prophets[i].birthdate;
-      bSite.textContent = 'Place of Birth: ' + prophets[i].birthplace;
+      bDay.innerHTML = `<strong>Date of Birth:</strong> ${prophets[i].birthdate}`;
+      bSite.innerHTML = `<strong>Place of Birth:</strong> ${prophets[i].birthplace}`;
       pImg.src = prophets[i].imageurl;
 
       card.appendChild(h2);
