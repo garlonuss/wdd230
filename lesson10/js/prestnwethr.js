@@ -1,5 +1,5 @@
 const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=6778ff3ae3c98a1ab1710bfef0023698';
-//alert(requestURL);
+alert(requestURL); //show me what you're trying to do
 fetch(requestURL)
   .then(function (response) {
     return response.json()
