@@ -236,6 +236,9 @@ body {
     animation: glow2 .5s ease-in-out infinite alternate;
     top: 15%;
   }
+  .clear {
+    visibility: hidden;
+  }
   /* #day1 {
     background-image: url("https://images.pexels.com/photos/912364/pexels-photo-912364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: 500%;
