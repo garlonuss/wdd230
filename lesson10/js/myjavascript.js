@@ -131,9 +131,9 @@ This section is for populating the 5 day forecast
 /*/
 if (document.querySelector('#day1')) {
   var dayvalue = today.getDay();
-  document.querySelector('#day1').textContent = `${weekday[dayvalue]}`;
-  document.querySelector('#day2').textContent = `${weekday[((dayvalue + 1) % 7)]}`;
-  document.querySelector('#day3').textContent = `${weekday[((dayvalue + 2) % 7)]}`;
-  document.querySelector('#day4').textContent = `${weekday[((dayvalue + 3) % 7)]}`;
-  document.querySelector('#day5').textContent = `${weekday[((dayvalue + 4) % 7)]}`;
+  document.querySelector('#day1').innerHTML = `<img id='d1' width=100%><div class='wkd'>${weekday[dayvalue]}</div><div id='t1'></div>`;
+  document.querySelector('#day2').innerHTML = `<img id='d2' width=100%><div class='wkd'>${weekday[((dayvalue + 1) % 7)]}</div><div id='t2'></div>`;
+  document.querySelector('#day3').innerHTML = `<img id='d3' width=100%><div class='wkd'>${weekday[((dayvalue + 2) % 7)]}</div><div id='t3'></div>`;
+  document.querySelector('#day4').innerHTML = `<img id='d4' width=100%><div class='wkd'>${weekday[((dayvalue + 3) % 7)]}</div><div id='t4'></div>`;
+  document.querySelector('#day5').innerHTML = `<img id='d5' width=100%><div class='wkd'>${weekday[((dayvalue + 4) % 7)]}</div><div id='t5'></div>`;
 }

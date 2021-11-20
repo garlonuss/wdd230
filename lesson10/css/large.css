@@ -35,7 +35,13 @@
     width: 80px;
     height: 80px;
     border-radius: 9px;
-    font-size: 12pt;
+    font-size: 11pt;
+  }
+  .wkd {
+    top: 60%;
+  }
+  #t1, #t2, #t3, #t4, #t5 {
+    top: 75%;
   }
   #locationmap img {
     max-width: 80%;
