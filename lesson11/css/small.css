@@ -156,7 +156,7 @@ body {
 /*/
     background-image: url("https://images.pexels.com/photos/1968740/pexels-photo-1968740.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 /*/
-    background-image: url("https://garlonuss.github.io/wdd230/lesson6/images/wdd230_image_franklin_small.png");
+    background-image: url("https://garlonuss.github.io/wdd230/lesson11/images/wdd230_image_franklin_small.png");
     background-position: center;
     background-size: 100%;
     width: 100%;
@@ -171,7 +171,7 @@ body {
     min-width: 50%;
     background-color: rgba(255, 255, 255, 0.5);
     margin: auto;
-    font-size: 10px;
+    font-size: 12px;
     border-radius: 0 0 7px 7px;
   }
   .stat {
@@ -224,16 +224,18 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: .65;
+    opacity: .55;
   }
   .wkd {
     position: absolute;
     animation: glow2 .5s ease-in-out infinite alternate;
+    /* text-shadow: 0 0 65 #fff; */
     top: 0%;
   }
   #t1, #t2, #t3, #t4, #t5 {
     position: absolute;
     animation: glow2 .5s ease-in-out infinite alternate;
+    /* text-shadow: 0 0 65 #fff; */
     top: 15%;
   }
   .clear {
@@ -345,19 +347,19 @@ nav ul li a {
 }
 @-webkit-keyframes glow2 {
   from {
-    text-shadow: 0 0 15px #fff, 0 0 35px #fff;
+    text-shadow: 0 0 25px #fff, 0 0 45px #fff;
   }
   to {
-    text-shadow: 0 0 40px #fff;
+    text-shadow: 0 0 75px #fff;
   }
 }
 
 @keyframes glow2 {
   from {
-    text-shadow: 0 0 15px #fff, 0 0 35px #fff;
+    text-shadow: 0 0 25px #fff, 0 0 45px #fff;
   }
   to {
-    text-shadow: 0 0 40px #fff;
+    text-shadow: 0 0 75px #fff;
   }
 }
 
