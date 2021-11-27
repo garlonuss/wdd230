@@ -1,4 +1,4 @@
-const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=6778ff3ae3c98a1ab1710bfef0023698';
+const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=6778ff3ae3c98a1ab1710bfef0023698';
 // alert(requestURL); //show me what you're trying to do
 fetch(requestURL)
   .then(function (response) {
@@ -97,7 +97,7 @@ fetch(cityURL)
     console.table(jsonObject)  // temporary checking for valid response and data parsing
     const cities = jsonObject['towns'];
 
-    const city = cities.filter((city) => city.name === "Preston");
+    const city = cities.filter((city) => city.name === "Soda Springs");
     for (let i = 0; i < city.length; i++) {
 
       let eventinfo1 = document.createElement('p')
@@ -115,6 +115,3 @@ fetch(cityURL)
       document.querySelector('#eventinfo').appendChild(eventinfo3);
     }
   });
-if (today.getDay() == 5) {
-  document.querySelector('.banner').setAttribute("style", "display: block;");
-}

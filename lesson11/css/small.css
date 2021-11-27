@@ -224,7 +224,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: .55;
+    opacity: .35;
   }
   .wkd {
     position: absolute;
@@ -537,6 +537,20 @@ input[type='radio'] {
   transition-duration: .5s;
   background-color: rgba(255, 255, 255, 0.85);
   animation: rotate_in 1s ease-in-out;
+}
+#event {
+  margin:1em 0;
+}
+#eventinfo{
+  background-color: rgba(255, 255, 127, 0.8);
+  padding:.5em;
+}
+.eventstats {
+  text-align: center;
+  text-shadow: 0 0 15px rgb(255, 255, 127);
+  padding: .2em;
+  margin: .2em;
+  line-height: 1.3em;
 }
 #firsttime:hover #assist {
   visibility: visible;

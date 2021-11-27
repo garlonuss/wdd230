@@ -66,10 +66,6 @@ weekday[5] = "Friday";
 weekday[6] = "Saturday";
 document.querySelector('#todaysdate').textContent = `[Today: ${weekday[today.getDay()]}, ${month[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}]`;
 
-if (today.getDay() == 5) {
-  document.querySelector('.banner').setAttribute("style", "display: block;");
-}
-
 /*/
 This section is for calculating the number of days since the user has visited the page
 /*/

@@ -97,24 +97,25 @@ fetch(cityURL)
     console.table(jsonObject)  // temporary checking for valid response and data parsing
     const cities = jsonObject['towns'];
 
-    const city = cities.filter((city) => city.name === "Preston");
+    const city = cities.filter((city) => city.name === "Fish Haven");
     for (let i = 0; i < city.length; i++) {
 
       let eventinfo1 = document.createElement('p')
       let eventinfo2 = document.createElement('p')
       let eventinfo3 = document.createElement('p')
+      let eventinfo4 = document.createElement('p')
       eventinfo1.classList.add('eventstats')
       eventinfo2.classList.add('eventstats')
       eventinfo3.classList.add('eventstats')
+      eventinfo4.classList.add('eventstats')
       eventinfo1.textContent = city[i]['events'][0]
       eventinfo2.textContent = city[i]['events'][1]
       eventinfo3.textContent = city[i]['events'][2]
+      eventinfo4.textContent = city[i]['events'][3]
 
       document.querySelector('#eventinfo').appendChild(eventinfo1);
       document.querySelector('#eventinfo').appendChild(eventinfo2);
       document.querySelector('#eventinfo').appendChild(eventinfo3);
+      document.querySelector('#eventinfo').appendChild(eventinfo4);
     }
   });
-if (today.getDay() == 5) {
-  document.querySelector('.banner').setAttribute("style", "display: block;");
-}

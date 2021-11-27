@@ -64,6 +64,9 @@
     border-radius: 5px;
     font-size: 8pt;
   }
+  #day1 img, #day2 img, #day3 img, #day4 img, #day5 img {
+    opacity: .55;
+  }
   .article {
     display: block;
     text-align: justify;
@@ -149,7 +152,41 @@
   .cities .stamp img {
     width:60%;
   }
-  #firsttime:hover {
+  #event {
+    width:30%;
+    position: absolute;
+    font-size: 80%;
+    top: 1.5em;
+    right: 1.5em;
+    transition: width top;
+    transition-duration: .75s;
+    transition-timing-function: ease-in-out;
+    z-index: 20;
+    text-shadow: 0 0 15px white;
+  }
+  #event:hover #eventinfo {
+    visibility: visible;
+    transition: visibility;
+    transition-duration: .5s;
+    animation: rotate_out 1s ease-in-out;
+  }
+  #event:hover {
+    width: 85%;
+    height: 50%;
+    top: .25em;
+    transition: width top;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+  }
+  #eventinfo {
+    visibility: hidden;
+    padding: .5em;
+    transition: visibility;
+    transition-duration: .5s;
+    background-color: rgba(255, 255, 127, 0.85);
+    animation: rotate_in 1s ease-in-out;
+  }
+  #firsttime:hover, #event:hover {
     width: 55%;
     height: 60%;
   }

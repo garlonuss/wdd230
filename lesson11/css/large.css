@@ -115,7 +115,7 @@
   .cities .stamp img {
     width:100%;
   }
-  #firsttime:hover {
+  #firsttime:hover, #event:hover {
     width: 40%;
     height: 70%;
   }

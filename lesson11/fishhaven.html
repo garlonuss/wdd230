@@ -5,9 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="Idaho, weater, preston, fish haven, storms, plan out, event planning, outdoorsman">
-  <meta name="description"
-    content="Weather in the Preston area. If you have an event you're planning check out what we have for you.">
+  <meta name="description" content="assignment">
   <meta name="author" content="Ryan Peterson">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/small.css" rel="stylesheet">
@@ -18,14 +16,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon.ico">
 
-  <title>Sky My Eyes Out - Home Page</title>
+  <title>Preston</title>
 
   <script defer src="js/myjavascript.js"></script>
-  <script defer src="js/homedata.js"></script>
+  <script defer src="js/fishwethr.js"></script>
+  <script defer src="js/windchill.js"></script>
 </head>
 
 <body>
-  <!-- <div class="banner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div> -->
   <header>
     <div class="icon"><img src="images/logo_75.png" id="logo_75" alt="Site Logo"><img src="images/logo_50.png"
         id="logo_50" alt="Site Logo"></div>
@@ -38,28 +36,67 @@
   <nav class="clearfix">
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
-      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="preston.html">Preston</a></li>
       <li><a href="sodasprings.html">Soda Springs</a></li>
-      <li><a href="fishhaven.html">Fish Haven</a></li>
+      <li><a class="active" href="fishhaven.html">Fish Haven</a></li>
       <li><a href="stormcenter.html">Storm Center</a></li>
       <li><a href="gallery.html">Gallery</a></li>
     </ul>
   </nav>
 
   <main>
-    <div id="headhero">
-      <img src="images\Weather3_band.png">
-      <div id="firsttime">
-        <div id="tab">First Time Assistance</div>
-        <div id="assist">
-          <p>Check out the local data for Preston, Soda Springs, and Fish Haven as you plan your outdoor events.</p>
-          <p>If you have information regarding an upcoming storm or recent storm, enter it on the Storm Center page.</p>
-          <p>Our gallery contains some pretty amazing images of the scenery and weather events of the area.</p>
+    <div class="stamp hero">
+      <div id="heroimg"></div>
+      <div class="summary">
+        <h3>Weather Summary</h3>
+        <div class="stat">Currently:</div>
+        <div class="data"><span id="condition">Sunny</span></div>
+        <div class="stat">Temperature:</div>
+        <div class="data"><span id="temp">0</span> &deg;F</div>
+        <div class="stat">Wind Chill:</div>
+        <div class="data"><span id="chill">0</span></div>
+        <div class="stat">Humidity:</div>
+        <div class="data"><span id="humid">0</span>%</div>
+        <div class="stat">Wind Speed:</div>
+        <div class="data"><span id="speed">0</span> mph</div>
+      </div>
+      <div id="event">
+        <div id="tab">Special Events</div>
+        <div id="eventinfo">
         </div>
       </div>
     </div>
-    <div class="cities">
+    <div class="stamp forecast">
+      <h3>5 Day Forecast</h3>
+      <div id="hid1" class="clear">1</div>
+      <div id="hid2" class="clear">2</div>
+      <div id="hid3" class="clear">3</div>
+      <div id="hid4" class="clear">4</div>
+      <div id="hid5" class="clear">5</div>
+      <div id="day1"></div>
+      <div id="day2"></div>
+      <div id="day3"></div>
+      <div id="day4"></div>
+      <div id="day5"></div>
+    </div>
+    <!-- <div class="fillme"></div> -->
+    <div class="stamp article">
+      <img
+        src="https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Hero Image">
+      <h3>Article Title</h3>
+      <div class=articletext>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
     </div>
     <!--    <div class="stamp">Contact Info</div>-->
   </main>
