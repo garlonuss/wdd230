@@ -1,0 +1,129 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="assignment">
+  <meta name="author" content="Ryan Peterson">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <title>Preston</title>
+
+  <script defer src="js/myjavascript.js"></script>
+  <script defer src="js/sodawethr.js"></script>
+  <script defer src="js/windchill.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="icon"><img src="images/logo_75.png" id="logo_75" alt="Site Logo"><img src="images/logo_50.png"
+        id="logo_50" alt="Site Logo"></div>
+    <div class="headtext">
+      <div id="title">Sky My Eyes Out</div>
+      <div id="slogan">Never Reign Doubt</div>
+      <div id="lastTimeHere"></div>
+    </div>
+  </header>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="preston.html">Preston</a></li>
+      <li><a class="active" href="sodasprings.html">Soda Springs</a></li>
+      <li><a href="fishhaven.html">Fish Haven</a></li>
+      <li><a href="stormcenter.html">Storm Center</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="stamp hero">
+      <div id="heroimg"></div>
+      <div class="summary">
+        <h3>Weather Summary</h3>
+        <div class="stat">Currently:</div>
+        <div class="data"><span id="condition">Sunny</span></div>
+        <div class="stat">Temperature:</div>
+        <div class="data"><span id="temp">0</span> &deg;F</div>
+        <div class="stat">Wind Chill:</div>
+        <div class="data"><span id="chill">0</span></div>
+        <div class="stat">Humidity:</div>
+        <div class="data"><span id="humid">0</span>%</div>
+        <div class="stat">Wind Speed:</div>
+        <div class="data"><span id="speed">0</span> mph</div>
+      </div>
+      <div id="event">
+        <div id="tab">Special Events</div>
+        <div id="eventinfo">
+        </div>
+      </div>
+    </div>
+    <div class="stamp forecast">
+      <h3>5 Day Forecast</h3>
+      <div id="hid1" class="clear">1</div>
+      <div id="hid2" class="clear">2</div>
+      <div id="hid3" class="clear">3</div>
+      <div id="hid4" class="clear">4</div>
+      <div id="hid5" class="clear">5</div>
+      <div id="day1"></div>
+      <div id="day2"></div>
+      <div id="day3"></div>
+      <div id="day4"></div>
+      <div id="day5"></div>
+    </div>
+    <!-- <div class="fillme"></div> -->
+    <div class="stamp article">
+      <img
+        src="https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Hero Image">
+      <h3>Article Title</h3>
+      <div class=articletext>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+    <!--    <div class="stamp">Contact Info</div>-->
+  </main>
+
+  <footer>
+    <div id="terminator">
+      <div id="locationmap"><img src="images/googlemap.png" alt="google maps image"></div>
+      <div id="innermator">
+        <div id="contact">
+          <div class="address stat">Address:</div>
+          <div class="address data">321 Fake Street, Preston, Idaho 83263</div>
+          <div class="phone stat">Phone:</div>
+          <div class="phone data">Klondike-4536</div>
+          <div class="email stat">Email:</div>
+          <div class="email data">Info@sky-my-eyes.com</div>
+        </div>
+        <div id="termsofuse"><a href="#">Terms of Use</a></div>
+        <div id="socialmedia"><img src="images/Facebook50.png" alt="facebook"><img src="images/Twitter50.png"
+            alt="twitter"><img src="images/Yelp50.png" alt="yelp"></div>
+      </div>
+    </div>
+    <p>&#169; <span id="copyrightyear">20X6</span> | Ryan Peterson | Utah | BYU-I Online Learning<br>
+      <span id="lastupdated"></span><br>
+      <span id="todaysdate"></span><br><a href="https://garlonuss.github.io/wdd230/">Back Up</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>

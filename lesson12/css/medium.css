@@ -1,0 +1,210 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 700px) {
+	h1 { font-size: 1.5rem;}
+
+  #logo_75 {
+    visibility: visible;
+  }
+  #logo_50 {
+    visibility: hidden;
+  }
+  #title {
+    font-size: 16pt;
+    line-height: 17pt;
+  }
+  #slogan {
+    font-size: 13pt;
+    line-height: 14pt;
+  }
+  body {
+    font-size: 15px;
+  }
+/*/
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+/*/
+
+  nav button {display: none;}
+
+  nav ul  {
+    margin-left: 2%;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    padding: .8rem 1rem;
+  }
+
+  nav ul.hide {display: block;}
+  #heroimg {
+    height: 150px;
+    border-radius: 7px;
+    background-image: url("https://garlonuss.github.io/wdd230/lesson11/images/wdd230_image_franklin_medium.png");
+      }
+  .hero {
+    position: relative;
+  }
+  .summary {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    min-width: 200px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+  }
+  #day1, #day2, #day3, #day4, #day5 {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    font-size: 8pt;
+  }
+  #day1 img, #day2 img, #day3 img, #day4 img, #day5 img {
+    opacity: .55;
+  }
+  .article {
+    display: block;
+    text-align: justify;
+  }
+  .article img {
+    max-width: 30%;
+    max-height: 40%;
+    float: right;
+  }
+  #socialmedia {
+    display: block;
+  }
+  #terminator {
+    flex-direction: row;
+  }
+  #locationmap {
+    order: 1;
+  }
+  #innermator {
+    order:2;
+  }
+  #locationmap img {
+    max-width: 80%;
+    max-height: 130px;
+  }
+  .address {
+    display: block;
+  }
+  .museum .stamp {
+    max-width: 48%;
+  }  
+
+  #new-form {
+    flex-flow:wrap;
+    font-size: 110%;
+  }
+  label {
+    margin:15px 30px;
+  }
+  #commentext {
+    margin:5px auto;
+    width: 35em;
+  }
+  #full-name, #email {
+    width:30em;
+  }
+  #zip {
+    width:6em;
+  }
+  #phone {
+    width:12em;
+  }
+  #date {
+    width: 12em;
+  }
+  #type {
+    width: 14em;
+  }
+  #region {
+    width: 15em;
+  }
+  .radios label {
+    top: -.55em;
+    left: .5em;
+  }
+    
+
+
+  .cities .stamp {
+    position: unset;
+    display: flex;
+    flex-flow: row;
+  }
+  .cities .stamp:nth-child(even) {
+    flex-flow: row-reverse;
+  }
+  .citystats {
+    position: unset;
+    background-color:unset;
+    font-size: 120%;
+    text-shadow: unset;
+  }
+  .cities .stamp img {
+    width:60%;
+  }
+  #event {
+    width:30%;
+    position: absolute;
+    font-size: 80%;
+    top: 1.5em;
+    right: 1.5em;
+    transition: width top;
+    transition-duration: .75s;
+    transition-timing-function: ease-in-out;
+    z-index: 20;
+    text-shadow: 0 0 15px white;
+  }
+  #event:hover #eventinfo {
+    visibility: visible;
+    transition: visibility;
+    transition-duration: .5s;
+    animation: rotate_out 1s ease-in-out;
+  }
+  #event:hover {
+    width: 85%;
+    height: 50%;
+    top: .25em;
+    transition: width top;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+  }
+  #eventinfo {
+    visibility: hidden;
+    padding: .5em;
+    transition: visibility;
+    transition-duration: .5s;
+    background-color: rgba(255, 255, 127, 0.85);
+    animation: rotate_in 1s ease-in-out;
+  }
+  #firsttime:hover, #event:hover {
+    width: 55%;
+    height: 60%;
+  }
+    
+  
+    /*/
+  input[type='radio'] {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    margin:0 auto;
+  }
+  /*/
+    
+/*/
+  .hero, .forecast, .article {
+    grid-column: 1 / 3;
+  }
+/*/
+
+} /*end medium */

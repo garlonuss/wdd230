@@ -1,0 +1,93 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="assignment">
+  <meta name="author" content="Ryan Peterson">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <title>Thanks be to you.</title>
+
+  <script defer src="js/myjavascript.js"></script>
+  <script>
+    function ziptrim() {
+      let intermed = document.getElementById('zip').value;
+      if (intermed.length == 5 || intermed.length == 0) {
+        document.getElementById('zip').setCustomValidity("");
+      } else {
+        //document.getElementById('zip').value = intermed.substring(0, 5);
+        document.getElementById('zip').setCustomValidity("Invalid field.");
+        //alert("Zip Code can only be 5 digits")
+      }
+    }
+    function severity_text(severity) {
+      document.getElementById('severity_text').innerHTML = "(" + severity + ")";
+    }
+  </script>
+</head>
+
+<body>
+  <!-- <div class="banner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div> -->
+  <header>
+    <div class="icon"><img src="images/logo_75.png" id="logo_75" alt="Site Logo"><img src="images/logo_50.png"
+        id="logo_50" alt="Site Logo"></div>
+    <div class="headtext">
+      <div id="title">Sky My Eyes Out</div>
+      <div id="slogan">Never Reign Doubt</div>
+      <div id="lastTimeHere"></div>
+    </div>
+  </header>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="preston.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="stamp">
+      Thanks for the Storm Data.
+      <!--    <div class="stamp">Contact Info</div>-->
+  </main>
+
+  <footer>
+    <div id="terminator">
+      <div id="locationmap"><img src="images/googlemap.png" alt="google maps image"></div>
+      <div id="innermator">
+        <div id="contact">
+          <div class="address stat">Address:</div>
+          <div class="address data">321 Fake Street, Preston, Idaho 83263</div>
+          <div class="phone stat">Phone:</div>
+          <div class="phone data">Klondike-4536</div>
+          <div class="email stat">Email:</div>
+          <div class="email data">Info@sky-my-eyes.com</div>
+        </div>
+        <div id="termsofuse"><a href="#">Terms of Use</a></div>
+        <div id="socialmedia"><img src="images/Facebook50.png" alt="facebook"><img src="images/Twitter50.png"
+            alt="twitter"><img src="images/Yelp50.png" alt="yelp"></div>
+      </div>
+    </div>
+    <p>&#169; <span id="copyrightyear">20X6</span> | Ryan Peterson | Utah | BYU-I Online Learning<br>
+      <span id="lastupdated"></span><br>
+      <span id="todaysdate"></span><br><a href="https://garlonuss.github.io/wdd230/">Back Up</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
