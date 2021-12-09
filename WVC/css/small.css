@@ -1,0 +1,115 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+  /*  font-size: 10pt;*/
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: black;
+    padding: 0;
+    margin: auto;
+    background-color: white;
+  }
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    /* color: rgb(228, 234, 248); */
+    color: rgba(0, 29, 74, 0.9);
+  }
+nav {
+    /*/
+      background-color: #187795;
+    /*/
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#54b9d8+8,187795+100 */
+    background: #006992; /* Old browsers */
+    background: -moz-linear-gradient(top,  #89d2dc 8%, #006992 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #89d2dc 8%, #006992 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #89d2dc 8%, #006992 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54b9d8', endColorstr='#187795',GradientType=0 ); /* IE6-9 */
+      text-align: center;
+      box-shadow: 0 1px 10px rgb(121, 190, 173);
+    font-family: 'Anton', sans-serif;
+    font-size: larger;
+    line-height: 2em;
+  }
+        
+nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+    
+nav ul li a {
+      display: block;
+      color: #001d4a;
+      text-align: center;
+      padding: 0.75rem;
+      text-decoration: none;
+      font-size: 0.95rem;
+      border: 1px solid rgba(0,0,0,.3);
+    }
+    nav ul li a:hover {background-color: rgba(0,0,0,.4); animation: glow 1s ease-in-out infinite alternate;}
+
+    nav ul.hide {display: none;}
+        @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 5px #fff, 0 0 35px #0023e6;
+      }
+      to {
+        text-shadow: 0 0 40px #4dafff;
+      }
+    }
+    
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 5px #fff, 0 0 35px #0023e6;
+      }
+      to {
+        text-shadow: 0 0 40px #4dafff;
+      }
+    }
+    @-webkit-keyframes glow2 {
+      from {
+        text-shadow: 0 0 25px #fff, 0 0 45px #fff;
+      }
+      to {
+        text-shadow: 0 0 75px #fff;
+      }
+    }
+    
+    @keyframes glow2 {
+      from {
+        text-shadow: 0 0 25px #fff, 0 0 45px #fff;
+      }
+      to {
+        text-shadow: 0 0 75px #fff;
+      }
+    }
+    .active {
+      background-color: rgba(0,0,0,.2);
+      color: rgba(0, 29, 74, 0.8);
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+    footer {
+      font-size: 12px;
+    }
+    header,
+    footer {
+      background-color: #006992;
+      color:white;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    /*  font-weight: bold; */
+    }
+    main {
+      background-color: #89d2dc;
+    }
+  

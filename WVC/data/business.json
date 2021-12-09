@@ -1,0 +1,53 @@
+{
+  "business": [
+    {
+      "name": "Hillside Tire & Auto",
+      "logo": "https://www.hillsidetire.com/Portals/15/logo.png",
+      "address": "3282 S 5600 WWest Valley, UT 84120",
+      "phone": "(801) 967-1104",
+      "website": "https://www.hillsidetire.com/"
+    },
+    {
+      "name": "Red Pine Dental",
+      "logo": "https://gp-assets-1.growthplug.com/logo/2020/11/24/RedPineDentalLogo.webp",
+      "address": "3550 S 5600 W #3, Salt Lake City, UT, 84120",
+      "phone": "(801)966-3166",
+      "website": "https://www.redpinedental.com/"
+    },
+    {
+      "name": "Valley Fair Mall",
+      "logo": "https://shopvalleyfairmall.com/images/vfLogo_color@2x.png",
+      "address": "3601 South 2700 West, West Valley City, Utah 84119",
+      "phone": "(801)969-6211",
+      "website": "https://shopvalleyfairmall.com/"
+    },
+    {
+      "name": "Jordan Valley Medical Center",
+      "logo": "https://content.steward.org/sites/default/files/styles/hospital_logo/public/Jordan%20Valley%20Medical%20Center%20West%20Valley%20Campus.png",
+      "address": "3460 South 4155 West, West Valley City, Utah 84120",
+      "phone": "(801)964-3100",
+      "website": "https://www.jordanwestvalley.org/"
+    },
+    {
+      "name": "Harmons Grocery",
+      "logo": "https://www.harmonsgrocery.com/wp-content/themes/wp_harmons_theme/dist/images/logo-desktop.png",
+      "address": "3955 W 3500 South, West Valley City, Ut 84120",
+      "phone": "(801)968-3577",
+      "website": "https://www.harmonsgrocery.com/"
+    },
+    {
+      "name": "Skyline Electric Company",
+      "logo": "https://skyline.us/wp-content/uploads/2021/03/Skyline-Electric-Co-no-oval-x150.png",
+      "address": "1848 West 2300 South, West Valley City, Utah",
+      "phone": "(801) 972-3656",
+      "website": "https://skyline.us/"
+    },
+    {
+      "name": "Business 7",
+      "logo": "business7logo",
+      "address": "business 7, address",
+      "phone": "business-7-phone",
+      "website": "business7.website"
+    }
+  ]
+}
