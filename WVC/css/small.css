@@ -8,11 +8,23 @@ body {
   /*  font-size: 10pt;*/
     font-family: 'Cairo', sans-serif;
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 1em;
     color: black;
     padding: 0;
     margin: auto;
     background-color: white;
+  }
+  body a {
+    font-style: oblique;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  p {
+    margin:.3em;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Libre Baskerville';
+
   }
 nav button {
     margin: .2rem 2%;
@@ -37,6 +49,9 @@ nav {
     font-family: 'Anton', sans-serif;
     font-size: larger;
     line-height: 2em;
+  }
+  #title {
+    font-family: 'Anton', sans-serif;
   }
         
 nav ul {
@@ -112,4 +127,64 @@ nav ul li a {
     main {
       background-color: #89d2dc;
     }
-  
+    .headtext {
+      font-size: 17pt;
+      display:flex;
+      align-items: center;
+      vertical-align: middle;
+      width:fit-content;
+      position: absolute;
+      right:1em;
+      top:2em;
+      color:white;
+      font-weight: bolder;
+      background-color: rgba(0,29,74,.6);
+      padding: 5px;
+    }
+    main {
+      position: relative;
+    }
+    .headtext img {
+      height: 50px;
+    }
+  #hero img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  #hero2 {
+    visibility: hidden;
+    width: 45%;
+    max-width: 500px;
+    height: 0%;
+  }
+  #hero2 img {
+    width:100%;
+  }
+  .widget {
+    display: block;
+    margin: 5px auto;
+    /* border: 5px dotted #fff; */
+    padding: 10px;
+    /* background-color: rgba(137, 174, 243,30%); */
+    width: 100%;
+  }
+ #purpose {
+   background-color: rgba(255, 255, 255, 0.3);
+ }
+ #weather {
+   background-color: #bce784;
+ }
+ #alert {
+   background-color: #e86a92;
+   width:100%;
+ }
+ #adverts {
+   background-color: seashell;
+ }
+ #events {
+   background-color:rgba(0,128,128,.50);
+ }
+ #joinus {
+   text-align: center;
+ }

@@ -22,5 +22,24 @@
   }
 
   nav ul.hide {display: block;}
-
+  #hero img {
+    height: 250px;
+    width:100%;
+  }
+  #hero {
+    width:100%;
+  }
+  #hero2 {
+    visibility:visible;
+    width: 45%;
+    max-width: 350px;
+    height:fit-content;
+  }
+  .widget {
+    width: 45%;
+  }
+  #content {
+    display:flex;
+    flex-flow: wrap;
+  }
 }

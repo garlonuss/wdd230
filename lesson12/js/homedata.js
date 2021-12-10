@@ -11,7 +11,7 @@ fetch(requestURL)
     const three_cities = cities.filter((city) => city.name === "Preston" || city.name === "Soda Springs" || city.name === "Fish Haven");
     for (let i = 0; i < three_cities.length; i++) {
       let info = document.createElement('div');
-      info.classList.add("citystats")
+      info.classList.add("citystats");
       let card = document.createElement('div');
       card.classList.add("stamp");
       let h1 = document.createElement('h1');

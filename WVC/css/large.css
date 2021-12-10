@@ -10,4 +10,12 @@
     width: 100%;
     max-width: 1050px;
   } */
+  #hero img {
+    width: 700px;
+    height: 350px;
+  }
+  .headtext {
+    left: 2em;
+  }
+
 }
