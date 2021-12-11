@@ -9,6 +9,7 @@ body {
     font-family: 'Cairo', sans-serif;
     font-size: 14px;
     line-height: 1em;
+    font-weight: bold;
     color: black;
     padding: 0;
     margin: auto;
@@ -18,6 +19,7 @@ body {
     font-style: oblique;
     text-decoration: none;
     font-weight: bolder;
+    color:#8ead65;
   }
   p {
     margin:.3em;
@@ -63,7 +65,7 @@ nav ul {
     
 nav ul li a {
       display: block;
-      color: #001d4a;
+      color: #06357a;
       text-align: center;
       padding: 0.75rem;
       text-decoration: none;
@@ -72,7 +74,9 @@ nav ul li a {
     }
     nav ul li a:hover {background-color: rgba(0,0,0,.4); animation: glow 1s ease-in-out infinite alternate;}
 
-    nav ul.hide {display: none;}
+    .hide {
+      display:none;
+    }
         @-webkit-keyframes glow {
       from {
         text-shadow: 0 0 5px #fff, 0 0 35px #0023e6;
@@ -117,16 +121,23 @@ nav ul li a {
     }
     header,
     footer {
-      background-color: #006992;
       color:white;
       align-items: center;
       justify-content: center;
       text-align: center;
     /*  font-weight: bold; */
     }
+    footer{
+      background: -moz-linear-gradient(top,  #006992 8%, #579ca5 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  #006992 8%, #579ca5 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #006992 8%, #579ca5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
     main {
       background-color: #89d2dc;
-    }
+      background: -moz-linear-gradient(top,  #89d2dc 8%, #006992 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  #89d2dc 8%, #006992 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #89d2dc 8%, #006992 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      }
     .headtext {
       font-size: 17pt;
       display:flex;
@@ -140,12 +151,34 @@ nav ul li a {
       font-weight: bolder;
       background-color: rgba(0,29,74,.6);
       padding: 5px;
+      z-index: 5;
     }
     main {
       position: relative;
     }
     .headtext img {
       height: 50px;
+    }
+    .headtext2 {
+      font-size: 17pt;
+      display:flex;
+      align-items: center;
+      vertical-align: middle;
+      width:fit-content;
+      position: absolute;
+      right:0;
+      top:0;
+      color:white;
+      font-weight: bolder;
+      background-color: rgba(0,29,74,.6);
+      padding: 5px;
+      z-index: 5;
+    }
+    .headtext2 img {
+      height: 40px;
+    }
+    #content, #content2 {
+      padding-bottom: 5px;
     }
   #hero img {
     width: 100%;
@@ -174,7 +207,14 @@ nav ul li a {
  }
  #weather {
    background-color: #bce784;
- }
+   height:fit-content;
+   text-align: center;
+   display: flex;
+  }
+  .w_data {
+    color:rgb(72, 94, 136);
+    font-weight: bolder;
+  }
  #alert {
    background-color: #e86a92;
    width:100%;
@@ -183,8 +223,112 @@ nav ul li a {
    background-color: seashell;
  }
  #events {
-   background-color:rgba(0,128,128,.50);
+   background-color:rgba(147, 255, 255,.5);
  }
  #joinus {
    text-align: center;
+   background-color:rgba(14, 25, 25,.1);
+   height:fit-content;
+   align-content: center;
  }
+ .business_info{
+   grid-template-columns: 1fr 3fr;
+   width:95%;
+   padding: .5em;
+   margin:.5em auto;
+   background-color: white;
+   min-height: 120px;
+   height:fit-content;
+   vertical-align: middle;
+ }
+ .business_name{
+   vertical-align: middle;
+   align-content: center;
+  }
+ .business_logo{
+  vertical-align: middle;
+  align-content: center;
+  float: right;
+  padding-right:.5em;
+  max-height: 95px;
+  margin: 5px;
+}
+.business_address{
+  vertical-align: middle;
+  align-content: center;
+}
+.business_phone{
+  vertical-align: middle;
+  align-content: center;
+}
+.business_site{
+  vertical-align: middle;
+  align-content: center;
+}
+#adverts img {
+  max-width: 50%;
+}
+.label, #future1, #future2, #future3 {
+  text-align: right;
+  font-weight: bolder;
+  width:50%;
+  padding: 2px 6px;
+}
+#current, #forecast {
+  display:flex;
+  flex-flow: wrap;
+}
+
+
+#terminator {
+  display:flex;
+  flex-direction: column;
+}
+#innermator {
+  display:flex;
+  flex-direction: column;
+  width: 45%;
+  margin:auto;
+}
+#terminator a {
+  color: white;
+}
+#terminator img {
+  margin: 2px;
+}
+#socialmedia {
+  display: none;
+}
+#contact {
+  display: grid;
+  column-gap: 0px;
+  grid-template-columns: 5em 1fr;
+}
+
+#options {
+  display:flex;
+  padding:1em;
+}
+#options img {
+  width: 50px;
+  padding: 0 10px;
+}
+#content2 {
+  background:rgba(50,100,200,.15);
+  width:95%;
+  margin:auto;
+  font-size: 110%;
+  color:#555555;
+}
+#content2 a {
+  font-size: 75%;
+}
+#content2 .business_name {
+  font-weight: bold;
+  font-size: 120%;
+  color:black;
+}
+#content2 img {
+  max-height: 100px;
+  max-width: 50%;
+}

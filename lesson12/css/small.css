@@ -142,7 +142,8 @@ body {
     max-height: 100px;
   }
   #locationmap {
-    order: 2;
+    grid-column-start: 0;
+    grid-column-end: 1;
   }
   .address {
     display: none;

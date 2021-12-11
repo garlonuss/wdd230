@@ -23,6 +23,7 @@
 
   <script defer src="js/myjavascripts.js"></script>
   <script defer src="js/homedata.js"></script>
+  <script defer src="js/weather.js"></script>
 </head>
 
 <body>
@@ -67,37 +68,48 @@
         </div>
       </div>
       <div id="weather" class="widget">
-        <h2>Local Weather</h2>
-        <div id="current">Current</div>
+        <div>
+          <h3>Current Weather</h3>
+          <div id="current">
+            <div class="label">Temp:</div>
+            <div id="temp" class="w_data"></div>
+            <div class="label">Description:</div>
+            <div id="descr" class="w_data"></div>
+            <div class="label">Humidity:</div>
+            <div id="humid" class="w_data"></div>
+          </div>
+        </div>
         <div id="threeday">
-          <h2>3 Day Forecast</h2>
-          <div id="day1">1</div>
-          <div id="day2">2</div>
-          <div id="day3">3</div>
+          <h3>3 Day Forecast</h3>
+          <div id="forecast">
+            <div id="future1"></div>
+            <div id="day1" class="w_data">1</div>
+            <div id="future2"></div>
+            <div id="day2" class="w_data">2</div>
+            <div id="future3"></div>
+            <div id="day3" class="w_data">3</div>
+          </div>
         </div>
       </div>
       <div id="alert" class="widget">
-        <h2>Weather Alerts</h2>
-        <p>If Available</p>
+        <p id="alert_text">If Available</p>
       </div>
       <div id="adverts" class="widget">
-        <ul>
-          <li>ad1</li>
-          <li>ad2</li>
-          <li>ad3</li>
-        </ul>
       </div>
       <div id="events" class="widget">
         <h2>Events</h2>
         <ul>
-          <li>Event</li>
-          <li>List</li>
+          <li>SLCC is offering a Time Management class this upcoming Wednesday at 6:00. All interested participants are
+            welcome.</li>
+          <li>This Friday at Liberty Park, Shakespeare in the Park has an open market where several local small
+            businesses will be offering their wares.</li>
+          <li>Weekly half-off Tuesdays at the Rec Center have been canceled until next month.</li>
         </ul>
       </div>
+      <div id="joinus" class="widget">Come on and <a href="join.html">Join</a> our network of businnesses and get your
+        voice
+        out there!</div>
     </div>
-    <div id="joinus" class="widget">Come on and <a href="join.html">Join</a> our network of businnesses and get your
-      voice
-      out there!</div>
   </main>
 
   <footer>

@@ -17,5 +17,62 @@
   .headtext {
     left: 2em;
   }
+  #content{
+    position:relative;
+    height: 1000px;
+  }
+  #hero2{
+    position:absolute;
+    top:250px;
+    left:75px;
+    width:250px;
+  }
+  #purpose{
+    position:absolute;
+    right:1em;
+    top:1em;
+    width:300;
+  }
+  #weather{
+    position:absolute;
+    top: 450px;
+    left:50px;
+    width: 300;
+    font-size: 80%;
+  }
+  #alert{
+    /* position:absolute; */
+    /* visibility: hidden; */
+    width:100%;
+    margin-top: 420px;
 
+  }
+  #adverts{
+    position:absolute;
+    top: 350px;
+    right:50px;
+    width: 500;
+  }
+  #events{
+    width:95%;
+    margin:auto;
+  }
+  .widget {
+    box-shadow: 5px 10px 15px rgba(0,0,0,.5);
+  }
+  #joinus {
+    position:absolute;
+    width:25%;
+    top:125px;
+    left:1em;
+    background-color: rgba(125,175,255,.85);
+    font-weight: bold;
+  }
+  #joinus a {
+    color:#006992;
+    font-weight: bolder;
+  }
+  .widget2 {
+    width: 30%;
+  }
 }

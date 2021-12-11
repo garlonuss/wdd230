@@ -34,12 +34,46 @@
     width: 45%;
     max-width: 350px;
     height:fit-content;
+    order:1;
+  }
+  #purpose{
+    order:0;
+  }
+  #weather{
+    order:2;
+    font-size: 75%;
+  }
+  #alert{
+    order:3;
+  }
+  #adverts{
+    order:4;
+  }
+  #events{
+    order:5;
+  }
+  #joinus {
+    order:6;
   }
   .widget {
     width: 45%;
   }
-  #content {
+  #content, #content2 {
     display:flex;
     flex-flow: wrap;
+  }
+  #content2 {
+    font-size: 120%;
+    line-height: 1.2em;
+  }
+  #content2 a {
+    font-size: 105%;
+  }
+  #content2 .business_name {
+    font-size: 140%;
+    line-height: 1.2em;
+  }
+  .widget2 {
+    width: 45%;
   }
 }

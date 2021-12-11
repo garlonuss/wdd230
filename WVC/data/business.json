@@ -43,11 +43,11 @@
       "website": "https://skyline.us/"
     },
     {
-      "name": "Business 7",
-      "logo": "business7logo",
-      "address": "business 7, address",
-      "phone": "business-7-phone",
-      "website": "business7.website"
+      "name": "Hexcel Corporation",
+      "logo": "https://www.hexcel.com/assets/img/logo.png",
+      "address": "PO Box 18748 SALT LAKE CITY UT 84118-0748",
+      "phone": "(801) 508-8007",
+      "website": "https://www.hexcel.com/"
     }
   ]
 }
