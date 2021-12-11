@@ -22,6 +22,7 @@
   <title>West Valley Commerce - Contact Us</title>
 
   <script defer src="js/myjavascripts.js"></script>
+  <script defer src="js/weather.js"></script>
 </head>
 
 <body>
@@ -46,6 +47,49 @@
     <div id="options">
     </div>
     <div id="content2">
+      <img id="overviewimg" src="https://upload.wikimedia.org/wikipedia/commons/4/40/E_Center_outside_2002.jpg">
+      <div id="c-overview">
+        <h3>City Summary</h3>West Valley City is a city in Salt Lake County and a suburb of Salt Lake City
+        in the U.S. state of Utah. The population was 129,480 at the 2010 census, making it the second-largest city in
+        Utah. The
+        city incorporated in 1980 from a large, quickly growing unincorporated area, combining the four communities of
+        Granger, Hunter, Chesterfield, and Redwood. It is home to the Maverik Center and USANA Amphitheatre.
+      </div>
+      <div id="c-geography">
+        <h3>Area Geography</h3>
+        <p>According to the United States Census Bureau, the city has a total area of 35.5 square miles (91.8 km2), of
+          which 35.4 square miles (91.7 km2) is land and 0.1 square miles (0.2 km2) (0.17%) is water.</p>
+        <p>West Valley is located on the northwest side of the Salt Lake Valley between Salt Lake City on the north,
+          South Salt Lake on the east, Magna Township on the west, and Taylorsville and Kearns Township on the south.
+          The Oquirrh Mountains loom over the city to the west, while the Jordan River marks the eastern boundary.</p>
+      </div>
+      <div id="alert" class="widget">
+        <p id="alert_text">If Available</p>
+      </div>
+      <div id="weather">
+        <div>
+          <h3>Current Weather</h3>
+          <div id="current">
+            <div class="label">Temp:</div>
+            <div id="temp" class="w_data"></div>
+            <div class="label">Description:</div>
+            <div id="descr" class="w_data"></div>
+            <div class="label">Humidity:</div>
+            <div id="humid" class="w_data"></div>
+          </div>
+        </div>
+        <div id="threeday">
+          <h3>3 Day Forecast</h3>
+          <div id="forecast">
+            <div id="future1"></div>
+            <div id="day1" class="w_data">1</div>
+            <div id="future2"></div>
+            <div id="day2" class="w_data">2</div>
+            <div id="future3"></div>
+            <div id="day3" class="w_data">3</div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 

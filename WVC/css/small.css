@@ -192,6 +192,13 @@ nav ul li a {
     height: 200px;
     object-fit: cover;
   }
+  #overviewimg {
+    float:right;
+  }
+  #c-overview, #c-geography {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding:5;
+  }
   #hero2 {
     visibility: hidden;
     width: 45%;
@@ -372,7 +379,6 @@ nav ul li a {
   padding: 0 10px;
 }
 #content2 {
-  background:rgba(50,100,200,.15);
   width:95%;
   margin:auto;
   font-size: 110%;

@@ -101,4 +101,7 @@
   #phone {
     width:12em;
   }
+  #socialmedia {
+    display: block;
+  }
 }
