@@ -202,6 +202,14 @@ nav ul li a {
     /* background-color: rgba(137, 174, 243,30%); */
     width: 100%;
   }
+  #content3 .widget {
+    align-content: left;
+    height:fit-content;
+  }
+  #content2 .widget2 {
+    box-shadow: 5px 10px 15px rgba(0,0,0,.5);
+  }
+
  #purpose {
    background-color: rgba(255, 255, 255, 0.3);
  }
@@ -237,11 +245,27 @@ nav ul li a {
    padding: .5em;
    margin:.5em auto;
    background-color: white;
-   min-height: 120px;
    height:fit-content;
    vertical-align: middle;
  }
- .business_name{
+ #content .business_info, #content2 .business_info {
+  min-height: 120px;
+ }
+  #content3 .business_info{
+   width:95%;
+  max-height: fit-content;
+  vertical-align: middle;
+  align-content:left;
+  display:flex;
+  flex-flow: wrap;
+}
+#content3 .business_info img {
+  max-width:2px;
+}
+.business_name, .business_address, .business_phone, .business_site {
+  padding:0 3px;
+}
+  .business_name{
    vertical-align: middle;
    align-content: center;
   }
@@ -320,10 +344,18 @@ nav ul li a {
   font-size: 110%;
   color:#555555;
 }
-#content2 a {
+#content3 {
+  background:white;
+  max-width:fit-content;
+  margin:auto;
+  font-size: 110%;
+  color:#555555;
+  padding-bottom: 5px;
+}
+#content2 a,#content3 a {
   font-size: 75%;
 }
-#content2 .business_name {
+#content2 .business_name, #content3 .business_name {
   font-weight: bold;
   font-size: 120%;
   color:black;
@@ -332,3 +364,7 @@ nav ul li a {
   max-height: 100px;
   max-width: 50%;
 }
+#content3 img {
+  visibility: hidden;
+}
+
