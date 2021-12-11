@@ -81,6 +81,12 @@
   }
   #new-form {
     font-size: 90%;
+    padding:5;
+    display:flex;
+    flex-flow: wrap;
+  }
+  #messageus #new-form {
+    max-width: fit-content;
   }
   label {
     margin:10px;

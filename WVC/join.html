@@ -1,0 +1,129 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="Ryan Peterson">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Cairo:wght@200&family=Libre+Baskerville&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <title>West Valley Commerce - Contact Us</title>
+
+  <script defer src="js/myjavascripts.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a class="active" href="join.html">Join</a></li>
+        <li><a href="overview.html">City Overview</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="headtext2">
+      <img src="images/WVCC-logo-100.png">
+      <div id="title">West Valley Commerce</div>
+    </div>
+    <div id="options">
+    </div>
+    <div id="content2">
+      <form id="new-form" action="#" method="get">
+        <div style="width:100%">Please fill in the following information to report a storm:
+          <div style="font-size:75%; margin:auto;"><span style="color:red;">[*]</span>=Required field</div>
+        </div>
+        <label for="f-name">
+          <input type="text" required pattern="[a-z A-Z]*" name="f-name" id="f-name" autofocus>
+          <div>First Name <span style="color:red;">*</span></div>
+        </label>
+        <label for="l-name">
+          <input type="text" required pattern="[a-z A-Z]*" name="l-name" id="l-name">
+          <div>Last Name <span style="color:red;">*</span></div>
+        </label>
+        <label for="title">
+          <input type="text" pattern="[a-z A-Z]*" name="title" id="title">
+          <div>Title</div>
+        </label>
+        <label for="email">
+          <input type="email" name="email" id="email" required placeholder="John.Smith@email.com">
+          <div>Email Address <span style="color:red;">*</span></div>
+        </label>
+        <label for="phone">
+          <input type="tel" name="phone" id="phone">
+          <div>Cell Phone</div>
+        </label>
+        <label for="b-name">
+          <input type="text" required pattern="[a-z A-Z]*" name="b-name" id="b-name" autofocus>
+          <div>Business Name <span style="color:red;">*</span></div>
+        </label>
+        <label for="b-address">
+          <input type="text" pattern="[a-z A-Z]*" name="b-address" id="b-address" autofocus>
+          <div>Business Address</div>
+        </label>
+        <label for="b-site">
+          <input type="text" pattern="[a-z A-Z]*" name="b-site" id="b-site" autofocus>
+          <div>Business Website</div>
+        </label>
+        <label for="b-descr">
+          <input type="text" pattern="[a-z A-Z]*" name="b-descr" id="b-descr" autofocus>
+          <div>Business Address</div>
+        </label>
+        <label for="m-level">
+          <datalist id="Membership">
+            <option value="Non-profit ($100)">
+            <option value="Bronze ($200)">
+            <option value="Silver ($400)">
+            <option value="Gold ($1000)">
+          </datalist>
+          <input list="Membership" required name="m-level" id="m-level">
+          <div>Membership Level <span style="color:red;">*</span></div>
+        </label>
+        <label for="submit" id="submit">
+          <div>Submit membership info</div>
+          <input type="Submit" name="submit" id="submit" text="Add">
+        </label>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div id="terminator">
+      <div id="innermator">
+        <div id="contact">
+          <div class="address stat">Address:</div>
+          <div class="address data">321 Fake Street, West Valley City, Ut 84120</div>
+          <div class="phone stat">Phone:</div>
+          <div class="phone data">Klondike-4536</div>
+          <div class="email stat">Email:</div>
+          <div class="email data">Contact_Us@wvcoc.com</div>
+        </div>
+        <div id="socialmedia"><img src="images/Facebook50.png" alt="facebook"><img src="images/Twitter50.png"
+            alt="twitter"><img src="images/Yelp50.png" alt="yelp"></div>
+      </div>
+    </div>
+    <p>&#169; <span id="copyrightyear">20X6</span> | Ryan Peterson | Utah | BYU-I Online Learning<br>
+      <span id="acknowledge"><a href="acknowledge.html">Acknowledgements</a></span>
+    </p>
+  </footer>
+
+</body>
+
+</html>

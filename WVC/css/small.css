@@ -406,6 +406,12 @@ nav ul li a {
   display:flex;
   flex-flow: column;
   font-size: 95%;
+  background-color: rgba(255,255,255,.3);
+  margin:auto;
+}
+#submit {
+  width:100%;
+  color:rgba(0, 29, 74, 0.9);
 }
 label {
   margin: 10px 0;
