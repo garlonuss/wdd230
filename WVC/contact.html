@@ -1,0 +1,122 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="Ryan Peterson">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Cairo:wght@200&family=Libre+Baskerville&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <title>West Valley Commerce - Contact Us</title>
+
+  <script defer src="js/myjavascripts.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="overview.html">City Overview</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="headtext2">
+      <img src="images/WVCC-logo-100.png">
+      <div id="title">West Valley Commerce</div>
+    </div>
+    <div id="options">
+    </div>
+    <div id="content2">
+      <h3>Want more info? Have feedback or suggestions? Feel free to contact us and let us know!</h3>
+      <div id="contactus">
+        <h3>Contact Info:</h3>
+        <div id="contact">
+          <div class="address stat">Address:</div>
+          <div class="address data">321 Fake Street, West Valley City, Ut 84120</div>
+          <div class="phone stat">Phone:</div>
+          <div class="phone data">Klondike-4536</div>
+          <div class="email stat">Email:</div>
+          <div class="email data">Contact_Us@wvcoc.com</div>
+        </div>
+      </div>
+      <div id="messageus" class="formfill">
+        <form id="new-form" action="#" method="get">
+          Send us a message:
+          <label for="full-name">
+            <input type="text" required pattern="[a-z A-Z]*" name="full-name" id="full-name" autofocus>
+            <div>Full Name</div>
+          </label>
+          <label for="phone">
+            <input type="tel" required name="phone" id="phone">
+            <div>Phone Number</div>
+          </label>
+          <label for="email">
+            <input type="email" name="email" id="email" placeholder="John.Smith@email.com">
+            <div>Email Address</div>
+          </label>
+          <label for="comments" id="commentext">
+            <textarea name="comments" id="comments" rows=4 columns=50></textarea>
+            <div>Additional Comments</div>
+          </label>
+          <label for="submit" id="submit">
+            <div>Add Storm To Database</div>
+            <input type="Submit" name="submit" id="submit" text="Add">
+          </label>
+        </form>
+      </div>
+      <div id="googlemap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96825.32416689866!2d-112.07720656707717!3d40.67856538829541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87528cddfa3588b3%3A0xf57b74998d78ace5!2sWest%20Valley%20City%2C%20UT!5e0!3m2!1sen!2sus!4v1639245420387!5m2!1sen!2sus"
+          style="border:0;" allowfullscreen="" loading="lazy" id="googleframe"></iframe>
+      </div>
+      <div id="board" class="widget">
+        <h3>Board of Directors:</h3>
+        <p>Inside Director: Ryan Peterson</p>
+        <p>Executive Director: Floyd deBarber</p>
+        <p>Nominee Director: Fulando de Tal</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div id="terminator">
+      <div id="innermator">
+        <div id="contact">
+          <div class="address stat">Address:</div>
+          <div class="address data">321 Fake Street, West Valley City, Ut 84120</div>
+          <div class="phone stat">Phone:</div>
+          <div class="phone data">Klondike-4536</div>
+          <div class="email stat">Email:</div>
+          <div class="email data">Contact_Us@wvcoc.com</div>
+        </div>
+        <div id="socialmedia"><img src="images/Facebook50.png" alt="facebook"><img src="images/Twitter50.png"
+            alt="twitter"><img src="images/Yelp50.png" alt="yelp"></div>
+      </div>
+    </div>
+    <p>&#169; <span id="copyrightyear">20X6</span> | Ryan Peterson | Utah | BYU-I Online Learning<br>
+      <span id="acknowledge"><a href="acknowledge.html">Acknowledgements</a></span>
+    </p>
+  </footer>
+
+</body>
+
+</html>

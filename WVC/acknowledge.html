@@ -19,10 +19,11 @@
     rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon.ico">
 
-  <title>West Valley Commerce - Business Directory</title>
+  <title>West Valley Commerce</title>
 
   <script defer src="js/myjavascripts.js"></script>
-  <script defer src="js/directorydata.js"></script>
+  <script defer src="js/homedata.js"></script>
+  <script defer src="js/weather.js"></script>
 </head>
 
 <body>
@@ -31,7 +32,7 @@
       <button onclick="toggleMenu()">&#9776;</button>
       <ul id="primaryNav" class="hide">
         <li><a href="index.html">Home</a></li>
-        <li><a class="active" href="directory.html">Directory</a></li>
+        <li><a href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
         <li><a href="overview.html">City Overview</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -40,15 +41,31 @@
   </header>
 
   <main>
-    <div class="headtext2">
+    <div class="headtext">
       <img src="images/WVCC-logo-100.png">
       <div id="title">West Valley Commerce</div>
     </div>
-    <div id="options">
-      <div id="gridopt" onclick="make_grid()"><img src="images/gridicon.png"></div>
-      <div id="listopt" onclick="make_list()"><img src="images/listicon.png"></div>
-    </div>
-    <div id="content2">
+    <div id="content">
+      <div>The following sources have been used to create the content of this website:</div>
+      <ul>
+        <li>Business data</li>
+        <ul>
+          <li>hillside tire & auto - https://www.hillsidetire.com/</li>
+          <li>red pine dental - https://www.redpinedental.com/</li>
+          <li>valley fair mall - https://shopvalleyfairmall.com/</li>
+          <li>Jordan Valley Medical Center - https://www.jordanwestvalley.org/</li>
+          <li>Harmons Grocery - https://www.harmonsgrocery.com/</li>
+          <li>Skyline Electric Company - https://skyline.us/</li>
+        </ul>
+        <li>Creative commons licence images:</li>
+        <ul>
+          <li>WVC-aerial - https://commons.wikimedia.org/wiki/File:West_Valley_City_aerial.jpg</li>
+          <li>west-valley-city - https://pix4free.org/photo/1219/west-valley-city.html</li>
+          <li>West valley city by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license"
+              href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a
+              href="http://pix4free.org/">Pix4free</a></li>
+        </ul>
+      </ul>
     </div>
   </main>
 

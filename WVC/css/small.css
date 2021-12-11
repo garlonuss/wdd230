@@ -132,6 +132,13 @@ nav ul li a {
       background: -webkit-linear-gradient(top,  #006992 8%, #579ca5 100%); /* Chrome10-25,Safari5.1-6 */
       background: linear-gradient(to bottom,  #006992 8%, #579ca5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     }
+    #acknowledge {
+      float: left;
+    }
+    #acknowledge a {
+      color:rgb(92, 4, 4);
+      font-weight: bolder;
+    }
     main {
       background-color: #89d2dc;
       background: -moz-linear-gradient(top,  #89d2dc 8%, #006992 100%); /* FF3.6-15 */
@@ -328,10 +335,37 @@ nav ul li a {
   column-gap: 0px;
   grid-template-columns: 5em 1fr;
 }
+#contactus {
+  width:fit-content;
+  margin:auto;
+  background-color: white;
+  padding:20;
+}
+#board {
+  background-color:white;
+}
+#messageus {
+  background-color: white;
+  padding:7px;
+  margin:10 auto;
+}
+#content #contact :nth-child(1) {
+  grid-column: 0/2;
+}
+#googleframe{
+  width: 600;
+  max-width: 90%;
+  height: 250;
+}
+#googlemap {
+  margin:auto;
+  padding:10px;
+}
 
 #options {
   display:flex;
   padding:1em;
+  height:4em;
 }
 #options img {
   width: 50px;
@@ -343,6 +377,7 @@ nav ul li a {
   margin:auto;
   font-size: 110%;
   color:#555555;
+  padding:5;
 }
 #content3 {
   background:white;
@@ -366,5 +401,32 @@ nav ul li a {
 }
 #content3 img {
   visibility: hidden;
+}
+#new-form {
+  display:flex;
+  flex-flow: column;
+  font-size: 95%;
+}
+label {
+  margin: 10px 0;
+  display:flex;
+  flex-flow: column-reverse;
+}
+label input + div, label textarea + div {
+  color: black;
+  transition: color, text-shadow;
+  transition-duration: .7s;
+  transition-timing-function: ease-in-out;
+}
+label input:focus + div, label textarea:focus + div {
+  color: rgb(202, 40, 154);
+  text-shadow: 0 0 10px rgb(228, 255, 105);
+  transition: color, text-shadow;
+  transition-duration: .7s;
+  transition-timing-function: ease-in-out;
+}
+#submit {
+  display: block;
+  margin:auto;
 }
 
