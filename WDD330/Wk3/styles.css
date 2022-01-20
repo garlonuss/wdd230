@@ -1,0 +1,73 @@
+body {
+  background-color: darkred;
+  color: white;
+}
+
+/*/
+body {
+  background: white;
+  @include breakpoint(large) { background: red; }
+  @include breakpoint(medium) { background: cyan; }
+  @include breakpoint(small) { background: green; }
+  @include breakpoint("max-width: 480px") { background: yellow; }
+}               
+/*/
+#contactform {
+  background-color: #D6BB81;
+  color: black;
+  /*/
+    @include center(100%);
+  /*/
+}
+#contactform input, #contactform textarea {
+  background-color: #F6ECD5;
+  flex: 2;
+}
+@media (min-width: 31em) {
+  #contactform {
+    width: 90%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 60em) {
+  #contactform {
+    width: 70%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+fieldset > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+fieldset > div label {
+  text-align: left;
+  flex: 1;
+}
+@media (min-width: 31em) {
+  fieldset > div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    margin: 1em;
+  }
+  fieldset > div label {
+    text-align: right;
+    margin: 0 1em;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
