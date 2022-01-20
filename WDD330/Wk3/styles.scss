@@ -25,9 +25,6 @@ $break-large: 60em;
   margin-right: auto;
 }
 
-
-
-
 @mixin breakpoint($break) {
 @if $break == large {
 @media (min-width: $break-large) { @content; }
