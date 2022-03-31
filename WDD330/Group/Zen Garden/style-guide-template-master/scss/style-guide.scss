@@ -1,0 +1,52 @@
+@import 'bourbon'; // http://bourbon.io/
+
+@import '../partials/layout'; // responsive grid and media queries
+
+
+@import '..//partials/color';
+
+// additional colors
+
+$success: #6fce72; // green
+$alert: $color-3;  // red
+
+@import '../partials/typography';
+
+/* -------------------------------- 
+
+xBackground 
+
+-------------------------------- */
+
+body {
+	/* this is the page background */
+	background-color: $color-5;
+}
+
+@import '..//partials/branding';
+
+@import '..//partials/xNavi';
+/*
+
+
+/* -------------------------------- 
+
+xPage title 
+
+-------------------------------- */
+
+main > h1 {
+	color: $color-2;
+
+	@include MQ(L) {
+		/* title goes into the header on big devices */
+		color: $color-5;
+	}
+}
+
+@import '..//partials/icons';
+
+@import '../partials/forms';
+@import '..//partials/wireframes';
+@import '..//partials/prefix-mixins';
+@import '../partials/basic-style';

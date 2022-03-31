@@ -1,0 +1,21 @@
+
+<svg width="200" height="200">
+  <defs>
+    <filter id="f1" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+    </filter>
+    <filter id="f2" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="7" />
+    </filter>
+  </defs>
+    <symbol id="ridge" filter="url(#f2)">
+      <path d="M 0 25 q 50 0 100 -25" class="sand wave" stroke="#DAC6BE" fill="none"/>
+      <path d="M 0 75 q 45 5 100 -25" class="sand wave" stroke="#DAC6BE" fill="none"/>
+      <path d="M 0 125 q 35 5 100 -25" class="sand wave" stroke="#DAC6BE" fill="none"/>
+      <path d="M 0 175 q 45 0 100 -25" class="sand wave" stroke="#DAC6BE" fill="none"/>
+      <path d="M 100 50 q 50 -30 100 -25" class="sand wave" stroke="#DAC6BE" fill="none"/>
+      <path d="M 100 100 q 45 -20 100 -25" class="sand wave" stroke="#DAC6BE" fill="none"/>
+      <path d="M 100 150 q 35 5 100 -25" class="sand wave" stroke="#DAC6BE" fill="none"/>
+      <path d="M 100 200 q 45 0 100 -25" class="sand wave" stroke="#DAC6BE" fill="none"/>
+    </symbol>
+</svg>

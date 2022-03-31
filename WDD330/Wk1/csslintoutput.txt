@@ -1,0 +1,68 @@
+
+main.css
+  [2m1:13[22m  [31m[31m✖[39m  Expected double quotes                                                        [2mstring-quotes[22m                           
+  [2m4:21[22m  [31m[31m✖[39m  Expected "#6495ED" to be "#6495ed"                                            [2mcolor-hex-case[22m                          
+  [2m5:10[22m  [31m[31m✖[39m  Expected "#FAEBD7" to be "#faebd7"                                            [2mcolor-hex-case[22m                          
+  [2m7:11[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                [2mdeclaration-colon-space-after[22m           
+  [2m9:1[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m12:1[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m15:1[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m15:9[22m   [31m[31m✖[39m  Expected newline after ","                                                    [2mselector-list-comma-newline-after[22m       
+ [2m16:10[22m  [31m[31m✖[39m  Expected "#FAEBD7" to be "#faebd7"                                            [2mcolor-hex-case[22m                          
+ [2m19:1[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m20:10[22m  [31m[31m✖[39m  Expected "#DEB887" to be "#deb887"                                            [2mcolor-hex-case[22m                          
+ [2m23:1[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m30:3[22m   [31m[31m✖[39m  Expected empty line before comment                                            [2mcomment-empty-line-before[22m               
+ [2m30:5[22m   [31m[31m✖[39m  Expected whitespace after "/*"                                                [2mcomment-whitespace-inside[22m               
+ [2m30:18[22m  [31m[31m✖[39m  Expected whitespace before "*/"                                               [2mcomment-whitespace-inside[22m               
+ [2m31:21[22m  [31m[31m✖[39m  Expected "#FAEBD7" to be "#faebd7"                                            [2mcolor-hex-case[22m                          
+ [2m32:12[22m  [31m[31m✖[39m  Unexpected unit                                                               [2mlength-zero-no-unit[22m                     
+ [2m36:10[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                [2mdeclaration-colon-space-after[22m           
+ [2m40:27[22m  [31m[31m✖[39m  Expected modern color-function notation                                       [2mcolor-function-notation[22m                 
+ [2m40:35[22m  [31m[31m✖[39m  Expected single space after "," in a single-line function                     [2mfunction-comma-space-after[22m              
+ [2m40:39[22m  [31m[31m✖[39m  Expected single space after "," in a single-line function                     [2mfunction-comma-space-after[22m              
+ [2m40:43[22m  [31m[31m✖[39m  Expected single space after "," in a single-line function                     [2mfunction-comma-space-after[22m              
+ [2m40:44[22m  [31m[31m✖[39m  Expected ".3" to be "30%"                                                     [2malpha-value-notation[22m                    
+ [2m40:44[22m  [31m[31m✖[39m  Expected a leading zero                                                       [2mnumber-leading-zero[22m                     
+ [2m41:11[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                [2mdeclaration-colon-space-after[22m           
+ [2m43:1[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m48:1[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m51:1[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m52:14[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                [2mdeclaration-colon-space-after[22m           
+ [2m52:15[22m  [31m[31m✖[39m  Unexpected unit                                                               [2mlength-zero-no-unit[22m                     
+ [2m54:1[22m   [31m[31m✖[39m  Expected selector "article a" to come before selector "header a:visited"      [2mno-descending-specificity[22m               
+ [2m54:1[22m   [31m[31m✖[39m  Expected selector "article a" to come before selector "header a:active"       [2mno-descending-specificity[22m               
+ [2m54:1[22m   [31m[31m✖[39m  Expected selector "article a" to come before selector "header a:hover"        [2mno-descending-specificity[22m               
+ [2m54:1[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m54:10[22m  [31m[31m✖[39m  Expected newline after ","                                                    [2mselector-list-comma-newline-after[22m       
+ [2m55:10[22m  [31m[31m✖[39m  Expected "#6495ED" to be "#6495ed"                                            [2mcolor-hex-case[22m                          
+ [2m55:17[22m  [31m[31m✖[39m  Unexpected whitespace before ";"                                              [2mdeclaration-block-semicolon-space-before[22m
+ [2m58:1[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m59:10[22m  [31m[31m✖[39m  Expected "#DEB887" to be "#deb887"                                            [2mcolor-hex-case[22m                          
+ [2m61:1[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m65:1[22m   [31m[31m✖[39m  Expected selector "article h2 a" to come before selector "header a:visited"   [2mno-descending-specificity[22m               
+ [2m65:1[22m   [31m[31m✖[39m  Expected selector "article h2 a" to come before selector "header a:active"    [2mno-descending-specificity[22m               
+ [2m65:1[22m   [31m[31m✖[39m  Expected selector "article h2 a" to come before selector "header a:hover"     [2mno-descending-specificity[22m               
+ [2m65:1[22m   [31m[31m✖[39m  Expected selector "article h2 a" to come before selector "article a:visited"  [2mno-descending-specificity[22m               
+ [2m65:1[22m   [31m[31m✖[39m  Expected selector "article h2 a" to come before selector "article a:active"   [2mno-descending-specificity[22m               
+ [2m65:1[22m   [31m[31m✖[39m  Expected selector "article h2 a" to come before selector "article a:hover"    [2mno-descending-specificity[22m               
+ [2m65:13[22m  [31m[31m✖[39m  Expected newline after ","                                                    [2mselector-list-comma-newline-after[22m       
+ [2m69:1[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m70:10[22m  [31m[31m✖[39m  Expected "#6495ED" to be "#6495ed"                                            [2mcolor-hex-case[22m                          
+ [2m70:17[22m  [31m[31m✖[39m  Unexpected whitespace before ";"                                              [2mdeclaration-block-semicolon-space-before[22m
+ [2m74:3[22m   [31m[31m✖[39m  Expected newline after ","                                                    [2mselector-list-comma-newline-after[22m       
+ [2m74:5[22m   [31m[31m✖[39m  Expected selector "h2" to come before selector "article h2"                   [2mno-descending-specificity[22m               
+ [2m75:16[22m  [31m[31m✖[39m  Expected double quotes                                                        [2mstring-quotes[22m                           
+ [2m75:17[22m  [31m[31m✖[39m  Unexpected quotes around "Lora"                                               [2mfont-family-name-quotes[22m                 
+ [2m79:9[22m   [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                [2mdeclaration-colon-space-after[22m           
+ [2m83:3[22m   [31m[31m✖[39m  Expected whitespace after "/*"                                                [2mcomment-whitespace-inside[22m               
+ [2m83:27[22m  [31m[31m✖[39m  Expected whitespace before "*/"                                               [2mcomment-whitespace-inside[22m               
+ [2m86:13[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                [2mdeclaration-colon-space-after[22m           
+ [2m89:3[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m89:8[22m   [31m[31m✖[39m  Expected single space before "{"                                              [2mblock-opening-brace-space-before[22m        
+ [2m91:16[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                [2mdeclaration-colon-space-after[22m           
+ [2m94:3[22m   [31m[31m✖[39m  Expected empty line before rule                                               [2mrule-empty-line-before[22m                  
+ [2m95:11[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                [2mdeclaration-colon-space-after[22m           
+ [2m96:12[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                [2mdeclaration-colon-space-after[22m           
+ [2m98:1[22m   [31m[31m✖[39m  Unexpected missing end-of-source newline                                      [2mno-missing-end-of-source-newline[22m
+

@@ -1,0 +1,28 @@
+Things I can do to a sheet of paper:
+move
+spin
+flip
+fold
+crumple
+cut
+stack
+shuffle
+paint/color
+stamp
+write on
+page curl
+staple/pin
+burn
+shred
+slide
+punch a hole and iris open
+
+Helpful idea 1: Stack/shuffle
+Stack and shuffle could be a very useful way to show organization of information and sorting of data. Visually showing a series of overlapping "sheets" and when one is selected that data is brought out and displayed to be viewed/read.
+Description of motion:
+Once the user selects a sheet (click on the visible part of the sheet or select a number from a list) there are two things I could see happening. Either the stack "cycles" by moving the front sheet out to the side then back in place at the back of the stack until the selected sheet is showing, or all sheets "above" the selected sheet slide to the side, maybe turning to the side to get out of the way, until the selected sheet is clear and visible.
+
+Helpful idea 2:burn/iris open
+could be used with interactive quizes or online lottory type activities. An item is selected and the paper is burned or irised away to reveal the answer/prize beneath.
+Description of motion:
+A hole apears in the middle of the page and expands to reveal what's beneath. A regular circle would show the irising concept, but an irregular hole (maybe with a dark, burned outline) could be used as a burn-away reveal. An animation of fire over it could enhance the effect. Ore a different type of irregular border could be used to reflect a scratch-away pattern.
